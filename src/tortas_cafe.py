@@ -406,71 +406,86 @@ HTML_TEMPLATE = """\
   <title>Análisis Cafés — Axion Energy</title>
   <script>{plotly_js}</script>
   <style>
+    :root {{
+      --bg:         #F8FAFC;
+      --surface:    #FFFFFF;
+      --surface2:   #F1F5F9;
+      --border:     #E2E8F0;
+      --accent:     #4F46E5;
+      --accent-bg:  #EEF2FF;
+      --text:       #1E293B;
+      --text-dim:   #64748B;
+      --header-bg:  #0F172A;
+    }}
     *, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
     body {{
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background: #F4F6F8; color: #2C3E50; font-size: 14px;
+      font-family: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+      background: var(--bg); color: var(--text); font-size: 14px;
     }}
     header {{
-      background: #C0392B; color: white;
-      padding: 0.75rem 2rem; position: sticky; top: 0; z-index: 200;
+      background: var(--header-bg);
+      padding: 0.8rem 2rem; position: sticky; top: 0; z-index: 200;
       display: flex; align-items: center; justify-content: space-between;
     }}
-    header h1 {{ font-size: 1.05rem; font-weight: 600; letter-spacing: 0.02em; }}
+    header h1 {{
+      font-size: 0.95rem; font-weight: 600; letter-spacing: 0.01em; color: #F8FAFC;
+    }}
+    header h1 span {{ color: #818CF8; }}
     .chart-toggle {{
-      display: flex; gap: 4px; background: rgba(255,255,255,0.15);
-      border-radius: 6px; padding: 3px;
+      display: flex; gap: 2px; background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.12); border-radius: 8px; padding: 3px;
     }}
     .chart-toggle button {{
-      background: transparent; border: none; color: rgba(255,255,255,0.8);
-      font-size: 0.8rem; font-weight: 500; padding: 4px 12px;
-      border-radius: 4px; cursor: pointer; transition: background 0.15s, color 0.15s;
+      background: transparent; border: none; color: #94A3B8;
+      font-size: 0.78rem; font-weight: 500; padding: 5px 14px;
+      border-radius: 6px; cursor: pointer; transition: all 0.15s;
     }}
     .chart-toggle button.active {{
-      background: white; color: #C0392B;
+      background: #FFFFFF; color: var(--accent); font-weight: 600;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     }}
-    .chart-toggle button:hover:not(.active) {{
-      background: rgba(255,255,255,0.2); color: white;
-    }}
+    .chart-toggle button:hover:not(.active) {{ color: #E2E8F0; }}
     nav {{
-      background: white; border-bottom: 1px solid #E5E8EA;
-      padding: 0.45rem 2rem; position: sticky; top: 46px; z-index: 100;
-      display: flex; gap: 1.5rem; align-items: center;
+      background: var(--surface); border-bottom: 1px solid var(--border);
+      padding: 0rem 2rem; position: sticky; top: 49px; z-index: 100;
+      display: flex; gap: 0; align-items: center;
     }}
     nav a {{
-      text-decoration: none; color: #C0392B; font-size: 0.85rem;
-      font-weight: 500; padding: 0.2rem 0;
-      border-bottom: 2px solid transparent; transition: border-color 0.15s;
+      text-decoration: none; color: var(--text-dim); font-size: 0.82rem;
+      font-weight: 500; padding: 0.65rem 1rem;
+      border-bottom: 2px solid transparent;
+      transition: color 0.15s, border-color 0.15s;
     }}
-    nav a:hover {{ border-bottom-color: #C0392B; }}
+    nav a:hover {{ color: var(--accent); border-bottom-color: var(--accent); }}
     main {{ max-width: 1440px; margin: 0 auto; padding: 1.5rem 2rem 3rem; }}
     .section {{
-      background: white; border-radius: 10px;
-      padding: 1.5rem; margin-bottom: 1.5rem;
-      box-shadow: 0 1px 6px rgba(0,0,0,0.07);
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 12px; padding: 1.5rem; margin-bottom: 1.25rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.03);
     }}
     .section > h2 {{
-      font-size: 1.1rem; font-weight: 700; color: #C0392B;
-      margin-bottom: 1.25rem; padding-bottom: 0.6rem;
-      border-bottom: 2px solid #FDECEA;
+      font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--text-dim);
+      margin-bottom: 1.25rem; padding-bottom: 0.75rem;
+      border-bottom: 1px solid var(--border);
     }}
     details {{
-      background: #FAFAFA; border: 1px solid #E8ECEF;
-      border-radius: 8px; margin-bottom: 0.6rem;
-      padding: 0.75rem 1rem;
+      background: var(--surface2); border: 1px solid var(--border);
+      border-radius: 8px; margin-bottom: 0.4rem; padding: 0.7rem 1rem;
+      transition: border-color 0.15s, background 0.15s;
     }}
-    details[open] {{ background: white; }}
+    details[open] {{ background: var(--surface); border-color: #C7D2FE; }}
     summary {{
-      cursor: pointer; font-weight: 600; font-size: 0.95rem;
-      color: #2C3E50; user-select: none; list-style: none;
+      cursor: pointer; font-weight: 500; font-size: 0.88rem;
+      color: var(--text); user-select: none; list-style: none;
       display: flex; align-items: center; gap: 0.5rem;
     }}
     summary::before {{
-      content: "\\25B6"; font-size: 0.65rem; color: #C0392B;
+      content: "\\25B6"; font-size: 0.55rem; color: var(--text-dim);
       transition: transform 0.2s;
     }}
-    details[open] summary::before {{ transform: rotate(90deg); }}
-    summary:hover {{ color: #C0392B; }}
+    details[open] summary::before {{ transform: rotate(90deg); color: var(--accent); }}
+    summary:hover {{ color: var(--accent); }}
     .charts-grid {{
       display: grid; grid-template-columns: 1fr 1fr;
       gap: 0.75rem; margin-top: 1rem; overflow: hidden;
@@ -482,18 +497,18 @@ HTML_TEMPLATE = """\
       justify-content: center;
     }}
     .skip {{
-      color: #7F8C8D; font-style: italic;
+      color: var(--text-dim); font-style: italic;
       padding: 0.5rem 0; font-size: 0.9rem;
     }}
     .station-count {{
-      font-size: 0.78rem; color: #7F8C8D;
-      font-weight: 400; margin-left: 0.5rem;
+      font-size: 0.75rem; color: var(--text-dim);
+      font-weight: 400; margin-left: 0.4rem;
     }}
   </style>
 </head>
 <body>
   <header>
-    <h1>Análisis Cafés — Axion Energy</h1>
+    <h1>Análisis Cafés — <span>Axion Energy</span></h1>
     <div class="chart-toggle">
       <button class="active" onclick="setChartMode('sunburst', this)">Sunburst</button>
       <button onclick="setChartMode('treemap', this)">Treemap</button>
