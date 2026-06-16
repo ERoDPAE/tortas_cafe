@@ -1,0 +1,1291 @@
+estacion,hora,q_cafes_llevar_algo_leche_sinbakery_alfajor,q_cafes_llevar_algo_otros_sinbakery_alfajor,q_cafes_local_algo_leche_sinbakery_alfajor,q_cafes_local_algo_otros_sinbakery_alfajor
+Santa Rita,16,2.0000,14.0000,1.0000,27.0000
+Cabildo,20,1.0000,3.0000,2.0000,1.0000
+Olivos,0,18.0000,2.0000,3.0000,5.0000
+Cabildo,3,3.0000,null,4.0000,3.0000
+Las Heras,2,3.0000,null,null,null
+Amanecer,23,4.0000,6.0000,null,27.0000
+Parque Sarmiento,12,4.0000,2.0000,null,11.0000
+Amanecer,2,5.0000,11.0000,null,22.0000
+Lima,19,96.0000,191.0000,50.0000,218.0000
+Centenera,12,4.0000,4.0000,3.0000,6.0000
+Lima,17,128.0000,271.0000,56.0000,283.0000
+Gral Paz Provincia,9,34.0000,26.0000,10.0000,17.0000
+Gral Paz Capital,23,19.0000,17.0000,null,64.0000
+San Isidro,3,4.0000,9.0000,1.0000,3.0000
+San Isidro,13,9.0000,7.0000,5.0000,27.0000
+Florencio Varela,13,5.0000,4.0000,1.0000,15.0000
+Amanecer,7,7.0000,9.0000,null,9.0000
+Santa Rita,19,2.0000,19.0000,null,24.0000
+San Isidro,20,6.0000,7.0000,1.0000,20.0000
+Bonpland,14,10.0000,10.0000,5.0000,24.0000
+Villa Luro,11,9.0000,9.0000,6.0000,11.0000
+Maipu,17,4.0000,5.0000,5.0000,26.0000
+Zarate Brazo Largo,14,8.0000,5.0000,null,10.0000
+Boulevard,7,4.0000,6.0000,null,3.0000
+Lima,8,48.0000,50.0000,21.0000,28.0000
+DISC Echeverria,2,null,null,null,25.0000
+Gral Paz Capital,15,12.0000,13.0000,null,82.0000
+Santa Fe,15,null,5.0000,null,1.0000
+Amanecer,10,12.0000,5.0000,null,17.0000
+Trelles,4,14.0000,7.0000,5.0000,10.0000
+El Club,7,14.0000,9.0000,6.0000,4.0000
+Pilar,22,1.0000,7.0000,7.0000,10.0000
+Parque Sarmiento,16,10.0000,14.0000,7.0000,27.0000
+Bonpland,13,4.0000,4.0000,2.0000,25.0000
+Gral Paz Capital,3,21.0000,15.0000,null,14.0000
+Cabildo,6,5.0000,3.0000,2.0000,5.0000
+Alsina,6,13.0000,11.0000,2.0000,20.0000
+Alvear,15,13.0000,15.0000,15.0000,61.0000
+Ovidio Lagos,16,2.0000,2.0000,null,16.0000
+Zarate,14,7.0000,7.0000,null,7.0000
+Emilio Castro,8,16.0000,8.0000,1.0000,16.0000
+Quilmes,2,7.0000,6.0000,2.0000,15.0000
+Santa Rita,11,null,4.0000,null,5.0000
+Maipu,7,4.0000,8.0000,2.0000,7.0000
+Dialogos,20,7.0000,5.0000,4.0000,11.0000
+Olivos,22,7.0000,null,1.0000,9.0000
+Cabildo,10,4.0000,3.0000,3.0000,4.0000
+Maschwitz,20,null,null,null,16.0000
+Buen Ayre,11,8.0000,20.0000,8.0000,10.0000
+Centenera,19,8.0000,4.0000,3.0000,5.0000
+Maipu,0,8.0000,4.0000,2.0000,16.0000
+Parque Sarmiento,3,19.0000,1.0000,null,9.0000
+Garay,13,13.0000,1.0000,null,16.0000
+Santa Rita,7,1.0000,18.0000,null,5.0000
+Zarate,7,19.0000,5.0000,4.0000,4.0000
+Laferrere,19,14.0000,7.0000,1.0000,12.0000
+Emilio Castro,18,3.0000,10.0000,5.0000,16.0000
+Laferrere,18,9.0000,4.0000,6.0000,11.0000
+Santa Rita,0,2.0000,6.0000,1.0000,5.0000
+La Carmela,3,7.0000,11.0000,2.0000,5.0000
+Zarate Brazo Largo,6,16.0000,3.0000,null,2.0000
+Congreso,21,1.0000,3.0000,2.0000,3.0000
+Zarate Brazo Largo,8,14.0000,2.0000,null,7.0000
+AUBASA LP-BA,17,30.0000,66.0000,38.0000,139.0000
+AUBASA LP-BA,21,7.0000,14.0000,2.0000,21.0000
+Gutierrez,15,6.0000,6.0000,5.0000,12.0000
+Ovidio Lagos,23,2.0000,7.0000,1.0000,16.0000
+Alsina,14,5.0000,2.0000,null,14.0000
+Parque Sarmiento,8,14.0000,null,2.0000,8.0000
+Luis Viale,20,1.0000,8.0000,3.0000,12.0000
+Arroyo Seco,22,18.0000,32.0000,10.0000,20.0000
+Libertador,7,8.0000,5.0000,3.0000,6.0000
+Olivos,6,14.0000,1.0000,1.0000,1.0000
+Congreso,23,3.0000,4.0000,2.0000,5.0000
+Maipu,18,4.0000,10.0000,1.0000,20.0000
+El Club,20,6.0000,10.0000,6.0000,28.0000
+AUBASA BA-LP,5,27.0000,10.0000,5.0000,5.0000
+Quilmes,9,17.0000,7.0000,1.0000,9.0000
+Santa Rita,21,1.0000,4.0000,null,6.0000
+Zarate Brazo Largo,23,8.0000,3.0000,null,2.0000
+Arroyo Seco,11,29.0000,52.0000,12.0000,95.0000
+Olivos,20,5.0000,3.0000,3.0000,1.0000
+La Carmela,22,1.0000,5.0000,5.0000,16.0000
+Olivos,14,6.0000,3.0000,2.0000,10.0000
+America,1,8.0000,11.0000,null,15.0000
+Trelles,11,4.0000,3.0000,2.0000,6.0000
+Cabildo,19,7.0000,5.0000,2.0000,6.0000
+Villa Luro,14,1.0000,9.0000,2.0000,16.0000
+Congreso,14,8.0000,7.0000,null,9.0000
+Gutierrez,22,1.0000,6.0000,null,1.0000
+Gral Paz Provincia,16,10.0000,33.0000,4.0000,48.0000
+Quilmes,22,1.0000,3.0000,null,7.0000
+Maschwitz,15,null,null,null,9.0000
+Villa Luro,9,10.0000,9.0000,8.0000,13.0000
+Olivos,1,16.0000,1.0000,2.0000,9.0000
+Emilio Castro,9,9.0000,4.0000,null,20.0000
+Villa Luro,0,1.0000,17.0000,9.0000,34.0000
+Santa Rita,2,4.0000,9.0000,1.0000,12.0000
+Lima,5,39.0000,41.0000,8.0000,28.0000
+El Arco,10,8.0000,7.0000,2.0000,5.0000
+Del Tejar,3,1.0000,4.0000,1.0000,4.0000
+Parque Sarmiento,20,6.0000,9.0000,1.0000,14.0000
+Amanecer,15,5.0000,10.0000,null,34.0000
+America,6,7.0000,20.0000,null,11.0000
+Maschwitz,4,null,null,null,41.0000
+Las Heras,17,14.0000,12.0000,null,11.0000
+Bonpland,12,10.0000,8.0000,2.0000,15.0000
+Gral Paz Provincia,18,20.0000,33.0000,17.0000,42.0000
+Del Tejar,5,3.0000,2.0000,null,6.0000
+Congreso,6,13.0000,18.0000,null,13.0000
+Dialogos,21,1.0000,1.0000,4.0000,1.0000
+Zarate,2,4.0000,6.0000,2.0000,3.0000
+Parque Sarmiento,17,4.0000,19.0000,12.0000,29.0000
+Zarate,23,5.0000,10.0000,null,6.0000
+Bulnes,6,3.0000,1.0000,1.0000,2.0000
+AUBASA LP-BA,4,11.0000,29.0000,6.0000,7.0000
+AUBASA BA-LP,22,1.0000,19.0000,6.0000,29.0000
+Alberdi,21,null,null,null,7.0000
+DISC Echeverria,13,null,null,null,1.0000
+Olivos,12,4.0000,null,5.0000,2.0000
+Quilmes,23,10.0000,11.0000,null,9.0000
+Lima,14,35.0000,122.0000,13.0000,146.0000
+Libertador,12,8.0000,11.0000,6.0000,17.0000
+Centenera,0,5.0000,2.0000,null,4.0000
+Maschwitz,0,null,null,null,1.0000
+Gral Paz Capital,7,42.0000,38.0000,null,9.0000
+Laferrere,2,11.0000,25.0000,9.0000,11.0000
+Alberdi,13,null,null,null,10.0000
+Emilio Castro,6,9.0000,10.0000,null,2.0000
+Bonpland,22,1.0000,3.0000,7.0000,16.0000
+Los Incas,8,25.0000,2.0000,null,2.0000
+America,15,4.0000,9.0000,null,11.0000
+Laferrere,10,6.0000,4.0000,2.0000,6.0000
+Floresta,2,7.0000,9.0000,1.0000,23.0000
+Lima,7,58.0000,48.0000,18.0000,35.0000
+Gral Paz Capital,17,50.0000,24.0000,null,80.0000
+Arroyo Seco,21,28.0000,35.0000,4.0000,39.0000
+Emilio Castro,13,6.0000,6.0000,1.0000,4.0000
+Olivos,13,1.0000,null,5.0000,6.0000
+Floresta,13,1.0000,null,1.0000,3.0000
+Emilio Castro,1,8.0000,9.0000,3.0000,4.0000
+San Isidro,17,6.0000,20.0000,10.0000,49.0000
+Dialogos,2,1.0000,null,null,null
+Maschwitz,12,null,null,null,20.0000
+Zarate Brazo Largo,11,3.0000,1.0000,null,4.0000
+America,9,10.0000,11.0000,null,8.0000
+La Carmela,14,1.0000,3.0000,2.0000,7.0000
+Gutierrez,3,3.0000,4.0000,null,2.0000
+Del Tejar,18,6.0000,2.0000,1.0000,15.0000
+Alvear,1,11.0000,19.0000,11.0000,59.0000
+DISC Echeverria,11,null,null,null,13.0000
+America,19,3.0000,7.0000,null,38.0000
+AUBASA BA-LP,21,4.0000,17.0000,1.0000,13.0000
+Los Incas,10,62.0000,9.0000,null,3.0000
+Del Tejar,20,1.0000,3.0000,2.0000,5.0000
+Santa Rita,17,null,15.0000,2.0000,23.0000
+Alberdi,9,null,null,null,33.0000
+Santa Fe,16,null,1.0000,1.0000,3.0000
+Luis Viale,12,null,12.0000,3.0000,8.0000
+AUBASA BA-LP,2,11.0000,22.0000,5.0000,31.0000
+Ovidio Lagos,0,null,10.0000,7.0000,21.0000
+Buen Ayre,7,15.0000,11.0000,10.0000,13.0000
+Amanecer,13,2.0000,1.0000,null,10.0000
+Centenera,10,10.0000,9.0000,38.0000,63.0000
+Alvear,0,5.0000,21.0000,11.0000,62.0000
+Fisherton,13,null,8.0000,null,20.0000
+AUBASA LP-BA,16,32.0000,54.0000,27.0000,103.0000
+DISC Caraffa,18,null,null,3.0000,3.0000
+Alberdi,16,null,null,null,31.0000
+Congreso,8,10.0000,5.0000,null,9.0000
+El Club,15,10.0000,13.0000,13.0000,67.0000
+Alvear,9,10.0000,13.0000,14.0000,31.0000
+Luis Viale,23,5.0000,6.0000,3.0000,10.0000
+Buen Ayre,16,19.0000,33.0000,22.0000,88.0000
+Florencio Varela,23,null,8.0000,null,13.0000
+La Bandera,17,6.0000,3.0000,5.0000,55.0000
+Emilio Castro,7,11.0000,13.0000,1.0000,7.0000
+Centenera,16,3.0000,3.0000,9.0000,13.0000
+Bonpland,17,14.0000,14.0000,10.0000,38.0000
+Emilio Castro,14,1.0000,5.0000,2.0000,7.0000
+La Carmela,10,13.0000,12.0000,7.0000,8.0000
+Pilar,6,7.0000,11.0000,4.0000,6.0000
+Buen Ayre,10,16.0000,16.0000,7.0000,17.0000
+Alberdi,1,null,null,null,6.0000
+La Bandera,19,9.0000,2.0000,4.0000,9.0000
+Congreso,1,2.0000,6.0000,null,1.0000
+Buen Ayre,2,11.0000,7.0000,4.0000,19.0000
+Laferrere,4,9.0000,17.0000,2.0000,2.0000
+Alberdi,2,null,null,null,15.0000
+America,21,null,5.0000,null,8.0000
+Emilio Castro,5,1.0000,4.0000,3.0000,2.0000
+Disc Panamericana,13,null,null,null,1.0000
+Anchorena,9,null,null,null,null
+Disc Panamericana,16,1.0000,5.0000,null,null
+Centenera,4,2.0000,2.0000,2.0000,1.0000
+Bulnes,4,null,null,null,null
+DISC Caraffa,9,null,null,null,1.0000
+Disc Panamericana,21,null,null,null,2.0000
+DISC Caraffa,10,null,null,null,1.0000
+Disc Panamericana,2,null,null,null,null
+Disc Panamericana,7,null,1.0000,null,null
+Anchorena,22,null,null,null,null
+Anchorena,10,null,null,null,null
+Zarate,5,null,null,null,null
+La Bandera,4,null,null,null,null
+Anchorena,3,null,null,null,null
+Rivadavia,6,null,null,null,null
+Las Heras,9,11.0000,14.0000,null,13.0000
+Bulnes,7,null,null,3.0000,5.0000
+Zarate Brazo Largo,22,4.0000,3.0000,null,8.0000
+Alberdi,0,null,null,null,8.0000
+Villa Luro,6,12.0000,13.0000,3.0000,13.0000
+AUBASA LP-BA,1,12.0000,24.0000,8.0000,36.0000
+Gral Paz Provincia,21,2.0000,11.0000,6.0000,23.0000
+San Isidro,21,null,null,4.0000,8.0000
+Luis Viale,0,7.0000,2.0000,1.0000,16.0000
+Los Incas,11,22.0000,3.0000,null,null
+Trelles,19,7.0000,6.0000,7.0000,6.0000
+Congreso,11,4.0000,10.0000,null,3.0000
+Alsina,22,4.0000,20.0000,null,56.0000
+Villa Allende,14,1.0000,null,2.0000,7.0000
+Quilmes,11,3.0000,1.0000,4.0000,11.0000
+Del Tejar,22,null,null,null,11.0000
+Congreso,16,6.0000,7.0000,null,17.0000
+La Carmela,8,15.0000,14.0000,15.0000,6.0000
+San Isidro,16,7.0000,21.0000,7.0000,46.0000
+Alvear,22,5.0000,4.0000,11.0000,32.0000
+Cabildo,12,5.0000,3.0000,null,4.0000
+Alsina,0,null,7.0000,null,33.0000
+Villa Luro,10,12.0000,18.0000,7.0000,16.0000
+Del Tejar,19,3.0000,2.0000,4.0000,11.0000
+Boulevard,13,3.0000,3.0000,1.0000,17.0000
+Las Heras,4,1.0000,10.0000,null,null
+Fisherton,15,1.0000,9.0000,null,50.0000
+Quilmes,18,8.0000,19.0000,6.0000,23.0000
+Floresta,6,2.0000,10.0000,3.0000,4.0000
+La Bandera,12,1.0000,1.0000,null,8.0000
+Emilio Castro,12,2.0000,10.0000,2.0000,2.0000
+America,11,13.0000,9.0000,null,12.0000
+Parque Sarmiento,6,12.0000,7.0000,1.0000,36.0000
+Buen Ayre,19,10.0000,19.0000,7.0000,54.0000
+Quilmes,21,2.0000,null,1.0000,4.0000
+Dialogos,9,16.0000,10.0000,4.0000,3.0000
+Los Incas,5,4.0000,3.0000,null,null
+La Carmela,18,10.0000,13.0000,null,6.0000
+La Bandera,16,3.0000,2.0000,1.0000,27.0000
+Laferrere,21,3.0000,1.0000,7.0000,9.0000
+Maipu,15,6.0000,3.0000,1.0000,10.0000
+Gral Paz Capital,12,21.0000,12.0000,null,20.0000
+Floresta,20,1.0000,6.0000,5.0000,10.0000
+Floresta,18,4.0000,13.0000,2.0000,9.0000
+Olivos,17,13.0000,2.0000,4.0000,16.0000
+Luis Viale,13,null,2.0000,null,9.0000
+Luis Viale,2,3.0000,3.0000,2.0000,11.0000
+Centenera,15,1.0000,4.0000,3.0000,6.0000
+Gral Paz Capital,20,10.0000,8.0000,null,12.0000
+Emilio Castro,19,3.0000,14.0000,1.0000,8.0000
+Maipu,5,11.0000,null,null,6.0000
+Pilar,4,4.0000,8.0000,3.0000,2.0000
+Trelles,18,9.0000,6.0000,6.0000,17.0000
+El Arco,21,4.0000,7.0000,null,5.0000
+Luis Viale,5,4.0000,12.0000,null,38.0000
+Lima,1,27.0000,102.0000,20.0000,100.0000
+Amanecer,6,6.0000,15.0000,null,15.0000
+Garay,12,10.0000,8.0000,3.0000,27.0000
+Gutierrez,11,1.0000,3.0000,1.0000,4.0000
+America,5,8.0000,7.0000,null,3.0000
+Garay,0,7.0000,5.0000,1.0000,9.0000
+Bonpland,6,13.0000,15.0000,6.0000,7.0000
+Quilmes,3,4.0000,11.0000,2.0000,3.0000
+Villa Luro,2,3.0000,5.0000,2.0000,21.0000
+Garay,1,1.0000,12.0000,2.0000,26.0000
+Garay,7,18.0000,14.0000,null,9.0000
+Alberdi,20,null,null,null,4.0000
+San Isidro,18,6.0000,27.0000,2.0000,45.0000
+Zarate,16,8.0000,4.0000,2.0000,5.0000
+Laferrere,6,7.0000,8.0000,2.0000,6.0000
+Alvear,12,8.0000,2.0000,4.0000,24.0000
+AUBASA BA-LP,1,8.0000,29.0000,3.0000,41.0000
+Olivos,5,7.0000,null,null,2.0000
+Zarate Brazo Largo,13,9.0000,1.0000,2.0000,21.0000
+Libertador,10,9.0000,16.0000,6.0000,13.0000
+Santa Rita,8,7.0000,11.0000,1.0000,5.0000
+El Club,3,14.0000,13.0000,3.0000,5.0000
+DISC Echeverria,0,null,null,null,13.0000
+Arroyo Seco,18,135.0000,183.0000,43.0000,139.0000
+Gutierrez,8,5.0000,5.0000,null,2.0000
+Luis Viale,19,1.0000,8.0000,6.0000,16.0000
+Arroyo Seco,13,32.0000,48.0000,15.0000,117.0000
+Gral Paz Provincia,1,14.0000,25.0000,8.0000,48.0000
+Santa Rita,12,null,5.0000,1.0000,2.0000
+Trelles,1,6.0000,8.0000,1.0000,20.0000
+Boulevard,16,8.0000,8.0000,12.0000,62.0000
+Alberdi,14,null,null,null,6.0000
+Los Incas,17,5.0000,5.0000,null,3.0000
+AUBASA LP-BA,20,15.0000,17.0000,8.0000,26.0000
+Trelles,6,4.0000,5.0000,6.0000,1.0000
+Maipu,10,3.0000,4.0000,null,9.0000
+Amanecer,18,6.0000,14.0000,null,23.0000
+Zarate Brazo Largo,16,22.0000,7.0000,null,14.0000
+Florencio Varela,11,10.0000,8.0000,4.0000,12.0000
+Florencio Varela,2,3.0000,13.0000,2.0000,14.0000
+La Bandera,15,6.0000,2.0000,null,27.0000
+DISC Echeverria,18,null,null,null,16.0000
+Libertador,15,10.0000,30.0000,8.0000,52.0000
+El Club,6,2.0000,4.0000,3.0000,3.0000
+Alvear,11,17.0000,12.0000,8.0000,32.0000
+Amanecer,0,9.0000,10.0000,null,22.0000
+Zarate,11,9.0000,7.0000,null,6.0000
+Fisherton,16,2.0000,9.0000,null,61.0000
+El Club,13,6.0000,6.0000,5.0000,23.0000
+Santa Rita,5,1.0000,40.0000,null,11.0000
+Luis Viale,14,2.0000,6.0000,4.0000,17.0000
+Luis Viale,6,2.0000,14.0000,2.0000,14.0000
+AUBASA BA-LP,14,11.0000,32.0000,6.0000,58.0000
+AUBASA BA-LP,11,14.0000,34.0000,6.0000,53.0000
+Bonpland,7,54.0000,20.0000,7.0000,17.0000
+Floresta,22,null,11.0000,1.0000,17.0000
+La Carmela,17,11.0000,10.0000,6.0000,9.0000
+Luis Viale,10,4.0000,13.0000,2.0000,8.0000
+Floresta,10,24.0000,11.0000,2.0000,11.0000
+Bonpland,4,7.0000,10.0000,2.0000,9.0000
+Amanecer,21,null,null,null,7.0000
+CORS EVENTOS,17,32.0000,63.0000,null,null
+Maipu,23,4.0000,1.0000,2.0000,19.0000
+America,18,9.0000,11.0000,null,32.0000
+Laferrere,20,3.0000,7.0000,4.0000,13.0000
+Quilmes,14,2.0000,3.0000,3.0000,14.0000
+Parque Sarmiento,19,8.0000,16.0000,3.0000,22.0000
+El Arco,13,null,2.0000,1.0000,4.0000
+Lima,23,22.0000,76.0000,12.0000,61.0000
+Emilio Castro,17,11.0000,15.0000,2.0000,11.0000
+Los Incas,7,10.0000,3.0000,null,2.0000
+AUBASA BA-LP,20,9.0000,34.0000,7.0000,26.0000
+Maipu,4,3.0000,1.0000,2.0000,10.0000
+Gral Paz Capital,21,6.0000,3.0000,null,21.0000
+Zarate,15,12.0000,6.0000,null,11.0000
+Libertador,14,8.0000,6.0000,2.0000,28.0000
+Centenera,14,2.0000,2.0000,1.0000,8.0000
+Gutierrez,23,3.0000,3.0000,7.0000,17.0000
+Maipu,11,6.0000,1.0000,null,8.0000
+El Arco,16,6.0000,3.0000,1.0000,6.0000
+Florencio Varela,19,13.0000,7.0000,12.0000,12.0000
+Pilar,11,6.0000,4.0000,null,18.0000
+Pilar,21,1.0000,3.0000,1.0000,2.0000
+Fisherton,1,null,1.0000,null,14.0000
+Buen Ayre,13,2.0000,14.0000,4.0000,22.0000
+Del Tejar,17,2.0000,8.0000,6.0000,16.0000
+DISC Caraffa,17,null,4.0000,null,9.0000
+Alsina,16,5.0000,12.0000,3.0000,31.0000
+Fisherton,20,2.0000,11.0000,null,25.0000
+Gral Paz Provincia,2,9.0000,23.0000,11.0000,40.0000
+Maschwitz,13,null,null,null,15.0000
+Ovidio Lagos,6,1.0000,3.0000,null,5.0000
+Los Incas,23,4.0000,4.0000,null,1.0000
+Libertador,17,25.0000,24.0000,9.0000,43.0000
+Florencio Varela,17,27.0000,12.0000,16.0000,33.0000
+Gutierrez,21,1.0000,6.0000,2.0000,11.0000
+Alvear,19,20.0000,19.0000,15.0000,38.0000
+Fisherton,12,null,4.0000,null,12.0000
+Cabildo,15,5.0000,1.0000,3.0000,5.0000
+Zarate,21,7.0000,3.0000,null,null
+AUBASA LP-BA,6,28.0000,12.0000,4.0000,6.0000
+Quilmes,20,1.0000,1.0000,null,8.0000
+Santa Rita,13,1.0000,3.0000,null,13.0000
+Trelles,10,5.0000,5.0000,null,8.0000
+Gral Paz Provincia,23,8.0000,16.0000,10.0000,35.0000
+Alberdi,22,null,null,null,4.0000
+Maipu,14,4.0000,2.0000,null,21.0000
+Lima,3,35.0000,68.0000,11.0000,29.0000
+Lima,10,47.0000,78.0000,22.0000,74.0000
+Zarate,20,8.0000,null,null,2.0000
+Olivos,15,7.0000,1.0000,3.0000,7.0000
+Arroyo Seco,3,15.0000,22.0000,6.0000,13.0000
+Cabildo,18,7.0000,6.0000,2.0000,13.0000
+Cabildo,0,1.0000,3.0000,1.0000,6.0000
+Quilmes,16,8.0000,4.0000,3.0000,16.0000
+Alsina,12,7.0000,7.0000,3.0000,9.0000
+San Isidro,15,6.0000,30.0000,6.0000,35.0000
+Laferrere,3,7.0000,17.0000,5.0000,14.0000
+El Arco,17,4.0000,2.0000,4.0000,7.0000
+Maschwitz,11,null,null,null,40.0000
+Pilar,20,2.0000,6.0000,2.0000,4.0000
+La Carmela,15,7.0000,14.0000,null,5.0000
+Boulevard,17,10.0000,9.0000,17.0000,48.0000
+Zarate Brazo Largo,20,26.0000,1.0000,null,5.0000
+Libertador,21,4.0000,4.0000,2.0000,13.0000
+Gral Paz Provincia,22,6.0000,14.0000,9.0000,27.0000
+Lima,20,55.0000,81.0000,21.0000,95.0000
+AUBASA LP-BA,5,16.0000,16.0000,3.0000,10.0000
+Laferrere,16,5.0000,1.0000,3.0000,20.0000
+Trelles,21,13.0000,6.0000,6.0000,9.0000
+Centenera,2,3.0000,4.0000,null,2.0000
+Cabildo,7,4.0000,2.0000,2.0000,null
+DISC Caraffa,12,null,null,1.0000,4.0000
+Ovidio Lagos,9,1.0000,4.0000,null,8.0000
+Cabildo,4,3.0000,2.0000,1.0000,null
+Fisherton,8,7.0000,5.0000,null,7.0000
+Bulnes,12,2.0000,null,null,3.0000
+DISC Caraffa,14,null,null,null,5.0000
+DISC Caraffa,13,null,null,1.0000,3.0000
+Santa Rita,23,1.0000,4.0000,null,5.0000
+Zarate,8,10.0000,6.0000,1.0000,3.0000
+Florencio Varela,9,29.0000,28.0000,12.0000,15.0000
+Floresta,11,8.0000,6.0000,1.0000,9.0000
+Alsina,4,4.0000,8.0000,1.0000,11.0000
+Florencio Varela,3,null,null,null,1.0000
+Villa Allende,7,4.0000,6.0000,null,2.0000
+Santa Fe,7,8.0000,3.0000,5.0000,4.0000
+Olivos,8,11.0000,4.0000,4.0000,3.0000
+Zarate,6,3.0000,4.0000,1.0000,3.0000
+Cabildo,2,3.0000,2.0000,null,2.0000
+DISC Caraffa,19,null,1.0000,1.0000,3.0000
+DISC Caraffa,7,null,null,1.0000,null
+Disc Panamericana,11,1.0000,1.0000,null,null
+Gutierrez,1,2.0000,2.0000,4.0000,6.0000
+DISC Caraffa,23,null,null,null,null
+DISC Caraffa,2,null,null,null,null
+Disc Panamericana,6,null,1.0000,null,1.0000
+Anchorena,12,null,null,null,null
+Anchorena,11,null,null,null,null
+Anchorena,6,null,null,null,null
+Disc Panamericana,9,null,2.0000,null,2.0000
+Villa Allende,22,null,null,null,null
+Rivadavia,19,null,null,null,null
+La Bandera,5,null,null,null,null
+Rivadavia,17,null,null,null,null
+La Bandera,22,null,null,null,null
+Villa Allende,0,null,null,null,null
+Rivadavia,16,null,null,null,null
+Olivos,11,10.0000,3.0000,6.0000,3.0000
+Gral Paz Capital,0,23.0000,5.0000,null,34.0000
+Libertador,19,10.0000,32.0000,9.0000,31.0000
+Pilar,23,6.0000,6.0000,9.0000,8.0000
+Zarate,0,7.0000,15.0000,null,null
+San Isidro,14,8.0000,18.0000,3.0000,38.0000
+Arroyo Seco,14,49.0000,92.0000,19.0000,174.0000
+Maipu,20,4.0000,6.0000,3.0000,3.0000
+Dialogos,0,9.0000,5.0000,null,7.0000
+Bonpland,18,12.0000,9.0000,13.0000,28.0000
+Villa Luro,22,3.0000,6.0000,null,17.0000
+Zarate,17,9.0000,14.0000,3.0000,5.0000
+Gral Paz Provincia,0,11.0000,13.0000,6.0000,38.0000
+La Carmela,21,5.0000,6.0000,3.0000,13.0000
+La Carmela,19,10.0000,9.0000,1.0000,7.0000
+Villa Luro,15,7.0000,13.0000,5.0000,32.0000
+Laferrere,9,12.0000,2.0000,1.0000,9.0000
+Gutierrez,2,null,4.0000,null,7.0000
+DISC Caraffa,21,null,null,1.0000,2.0000
+Centenera,17,5.0000,6.0000,8.0000,4.0000
+AUBASA BA-LP,13,5.0000,10.0000,3.0000,29.0000
+Olivos,2,12.0000,4.0000,null,13.0000
+El Club,5,null,2.0000,1.0000,5.0000
+Trelles,5,4.0000,3.0000,1.0000,2.0000
+Gutierrez,9,7.0000,8.0000,null,5.0000
+El Club,1,9.0000,9.0000,10.0000,60.0000
+La Bandera,9,9.0000,1.0000,1.0000,16.0000
+Parque Sarmiento,10,13.0000,7.0000,3.0000,8.0000
+Bonpland,16,14.0000,14.0000,14.0000,39.0000
+America,10,12.0000,8.0000,null,17.0000
+Libertador,5,4.0000,19.0000,3.0000,6.0000
+Ovidio Lagos,8,2.0000,null,3.0000,11.0000
+Gral Paz Capital,8,42.0000,26.0000,null,33.0000
+Boulevard,6,16.0000,16.0000,25.0000,22.0000
+DISC Echeverria,10,null,null,null,22.0000
+Bulnes,18,6.0000,3.0000,5.0000,33.0000
+Lima,6,41.0000,43.0000,9.0000,24.0000
+Maipu,21,1.0000,1.0000,1.0000,1.0000
+Maipu,19,3.0000,1.0000,2.0000,5.0000
+Garay,3,6.0000,11.0000,3.0000,7.0000
+Laferrere,14,5.0000,5.0000,null,2.0000
+Las Heras,14,10.0000,11.0000,1.0000,8.0000
+Boulevard,12,2.0000,3.0000,2.0000,9.0000
+Dialogos,12,3.0000,1.0000,2.0000,8.0000
+La Carmela,1,7.0000,5.0000,null,6.0000
+El Club,16,24.0000,15.0000,17.0000,50.0000
+Florencio Varela,0,null,6.0000,3.0000,13.0000
+La Carmela,16,12.0000,21.0000,1.0000,14.0000
+La Carmela,2,11.0000,11.0000,3.0000,5.0000
+Olivos,7,15.0000,7.0000,3.0000,10.0000
+Villa Allende,12,null,1.0000,null,4.0000
+Gral Paz Provincia,14,5.0000,14.0000,2.0000,43.0000
+Libertador,1,3.0000,22.0000,17.0000,22.0000
+Maipu,3,12.0000,5.0000,7.0000,8.0000
+Arroyo Seco,2,24.0000,24.0000,4.0000,16.0000
+Santa Fe,11,5.0000,10.0000,null,3.0000
+Centenera,13,2.0000,1.0000,1.0000,7.0000
+La Carmela,0,15.0000,16.0000,3.0000,9.0000
+Alsina,7,9.0000,9.0000,1.0000,19.0000
+El Club,0,15.0000,10.0000,6.0000,37.0000
+Santa Fe,6,24.0000,4.0000,1.0000,6.0000
+Quilmes,8,16.0000,6.0000,3.0000,7.0000
+Floresta,0,7.0000,15.0000,1.0000,13.0000
+Buen Ayre,0,5.0000,6.0000,3.0000,28.0000
+Bonpland,3,11.0000,7.0000,9.0000,34.0000
+Gral Paz Capital,9,44.0000,29.0000,null,53.0000
+Laferrere,8,11.0000,14.0000,1.0000,16.0000
+Maipu,13,3.0000,2.0000,4.0000,6.0000
+Del Tejar,23,1.0000,1.0000,1.0000,22.0000
+Maipu,12,1.0000,1.0000,1.0000,12.0000
+Luis Viale,22,null,null,4.0000,5.0000
+Garay,20,3.0000,9.0000,1.0000,27.0000
+La Bandera,13,3.0000,null,2.0000,7.0000
+AUBASA BA-LP,12,11.0000,20.0000,5.0000,30.0000
+Amanecer,12,3.0000,2.0000,null,19.0000
+Fisherton,2,null,2.0000,null,5.0000
+Centenera,11,6.0000,3.0000,5.0000,8.0000
+Disc Panamericana,17,null,1.0000,null,1.0000
+Parque Sarmiento,23,8.0000,2.0000,null,8.0000
+Bonpland,5,15.0000,15.0000,1.0000,3.0000
+Ovidio Lagos,12,null,2.0000,1.0000,11.0000
+Congreso,22,3.0000,null,null,4.0000
+Bonpland,1,4.0000,6.0000,3.0000,31.0000
+DISC Caraffa,15,null,null,2.0000,9.0000
+Gral Paz Provincia,13,3.0000,9.0000,4.0000,29.0000
+Alberdi,19,null,null,null,9.0000
+Trelles,17,11.0000,10.0000,3.0000,6.0000
+Buen Ayre,14,5.0000,14.0000,12.0000,71.0000
+AUBASA BA-LP,3,17.0000,25.0000,1.0000,7.0000
+El Arco,19,8.0000,6.0000,2.0000,7.0000
+Bulnes,20,3.0000,null,1.0000,14.0000
+Villa Luro,13,3.0000,4.0000,4.0000,16.0000
+Maschwitz,17,null,null,null,41.0000
+Dialogos,16,7.0000,4.0000,8.0000,10.0000
+Fisherton,18,null,14.0000,null,64.0000
+AUBASA LP-BA,0,6.0000,26.0000,4.0000,29.0000
+Arroyo Seco,8,31.0000,36.0000,13.0000,38.0000
+Alsina,18,15.0000,14.0000,5.0000,36.0000
+Buen Ayre,17,24.0000,26.0000,16.0000,46.0000
+DISC Echeverria,17,null,null,null,10.0000
+San Isidro,6,1.0000,6.0000,6.0000,1.0000
+Las Heras,23,null,1.0000,2.0000,6.0000
+Garay,10,5.0000,5.0000,9.0000,5.0000
+Libertador,8,10.0000,8.0000,6.0000,9.0000
+El Club,18,13.0000,18.0000,26.0000,57.0000
+DISC Echeverria,19,null,null,null,20.0000
+Bulnes,13,1.0000,1.0000,2.0000,8.0000
+Las Heras,8,9.0000,4.0000,1.0000,8.0000
+La Bandera,14,6.0000,6.0000,2.0000,18.0000
+Gutierrez,16,3.0000,6.0000,7.0000,10.0000
+La Bandera,6,7.0000,2.0000,12.0000,6.0000
+Centenera,20,4.0000,2.0000,2.0000,2.0000
+Ovidio Lagos,17,5.0000,8.0000,2.0000,19.0000
+America,8,17.0000,19.0000,null,14.0000
+Boulevard,9,3.0000,6.0000,13.0000,12.0000
+Dialogos,18,14.0000,9.0000,21.0000,19.0000
+Zarate,18,12.0000,11.0000,1.0000,7.0000
+Gral Paz Capital,4,29.0000,7.0000,null,19.0000
+Del Tejar,11,4.0000,1.0000,2.0000,7.0000
+AUBASA BA-LP,8,39.0000,35.0000,12.0000,21.0000
+Laferrere,7,14.0000,5.0000,2.0000,7.0000
+Santa Fe,20,4.0000,2.0000,null,null
+Los Incas,14,6.0000,2.0000,null,1.0000
+Arroyo Seco,7,37.0000,39.0000,12.0000,24.0000
+Gutierrez,18,15.0000,7.0000,3.0000,10.0000
+Ovidio Lagos,1,1.0000,4.0000,5.0000,12.0000
+Luis Viale,8,1.0000,7.0000,2.0000,3.0000
+Gral Paz Capital,14,9.0000,10.0000,null,63.0000
+Dialogos,11,9.0000,5.0000,3.0000,14.0000
+San Isidro,12,11.0000,11.0000,4.0000,23.0000
+Gral Paz Capital,13,9.0000,8.0000,null,35.0000
+Los Incas,0,12.0000,3.0000,null,2.0000
+El Arco,8,11.0000,4.0000,null,1.0000
+AUBASA BA-LP,4,6.0000,24.0000,1.0000,15.0000
+Luis Viale,15,2.0000,9.0000,4.0000,40.0000
+Maschwitz,2,null,null,null,9.0000
+Maschwitz,14,null,null,null,7.0000
+Floresta,19,3.0000,12.0000,2.0000,5.0000
+Gutierrez,0,1.0000,3.0000,4.0000,8.0000
+La Carmela,20,5.0000,4.0000,null,9.0000
+Olivos,16,7.0000,1.0000,13.0000,13.0000
+Gral Paz Capital,22,15.0000,6.0000,null,23.0000
+Pilar,5,3.0000,7.0000,null,1.0000
+Pilar,1,4.0000,10.0000,5.0000,1.0000
+El Arco,20,2.0000,2.0000,4.0000,9.0000
+La Carmela,5,13.0000,6.0000,4.0000,2.0000
+AUBASA BA-LP,19,15.0000,45.0000,19.0000,58.0000
+Floresta,17,6.0000,14.0000,2.0000,14.0000
+Los Incas,9,21.0000,8.0000,null,1.0000
+Alsina,9,13.0000,13.0000,2.0000,14.0000
+Maipu,1,9.0000,11.0000,5.0000,30.0000
+DISC Echeverria,4,null,null,null,12.0000
+Gral Paz Provincia,7,23.0000,15.0000,4.0000,12.0000
+Alberdi,10,null,null,null,29.0000
+Del Tejar,1,6.0000,4.0000,2.0000,2.0000
+Bonpland,20,1.0000,4.0000,2.0000,24.0000
+Dialogos,17,16.0000,14.0000,13.0000,19.0000
+Boulevard,19,17.0000,17.0000,20.0000,57.0000
+Parque Sarmiento,2,12.0000,1.0000,null,7.0000
+AUBASA LP-BA,15,20.0000,50.0000,18.0000,85.0000
+Parque Sarmiento,13,11.0000,4.0000,1.0000,8.0000
+Alvear,4,11.0000,7.0000,18.0000,24.0000
+Congreso,0,5.0000,5.0000,1.0000,8.0000
+Lima,0,47.0000,112.0000,10.0000,59.0000
+Maschwitz,19,null,null,null,23.0000
+Las Heras,19,4.0000,7.0000,null,19.0000
+Arroyo Seco,5,19.0000,6.0000,null,17.0000
+Emilio Castro,16,8.0000,7.0000,null,10.0000
+Las Heras,13,6.0000,2.0000,1.0000,1.0000
+Gutierrez,14,1.0000,1.0000,3.0000,9.0000
+El Club,19,11.0000,12.0000,16.0000,32.0000
+Trelles,8,4.0000,4.0000,4.0000,4.0000
+Luis Viale,18,4.0000,9.0000,9.0000,22.0000
+Las Heras,12,null,6.0000,1.0000,5.0000
+Santa Fe,10,4.0000,7.0000,null,1.0000
+Cabildo,13,7.0000,3.0000,3.0000,1.0000
+Ovidio Lagos,22,4.0000,2.0000,null,9.0000
+America,7,19.0000,30.0000,null,7.0000
+Bonpland,11,7.0000,14.0000,2.0000,22.0000
+El Arco,9,4.0000,null,2.0000,4.0000
+Alvear,13,6.0000,5.0000,2.0000,47.0000
+AUBASA BA-LP,18,49.0000,56.0000,27.0000,59.0000
+Amanecer,11,5.0000,4.0000,null,16.0000
+Disc Panamericana,18,null,2.0000,null,null
+AUBASA LP-BA,2,12.0000,37.0000,11.0000,15.0000
+La Bandera,20,1.0000,2.0000,2.0000,9.0000
+Bulnes,8,3.0000,1.0000,3.0000,1.0000
+Zarate Brazo Largo,3,7.0000,null,null,10.0000
+El Club,12,3.0000,8.0000,3.0000,14.0000
+DISC Echeverria,16,null,null,null,7.0000
+Las Heras,1,3.0000,5.0000,2.0000,7.0000
+DISC Echeverria,9,null,null,null,26.0000
+Bulnes,21,1.0000,1.0000,7.0000,15.0000
+Las Heras,5,4.0000,3.0000,null,null
+Alsina,8,5.0000,11.0000,2.0000,16.0000
+Bulnes,19,9.0000,2.0000,7.0000,21.0000
+Amanecer,3,5.0000,17.0000,null,16.0000
+Gutierrez,6,3.0000,5.0000,null,null
+Cabildo,1,1.0000,null,1.0000,2.0000
+Pilar,3,1.0000,12.0000,2.0000,null
+Fisherton,23,null,1.0000,null,16.0000
+Ovidio Lagos,19,3.0000,3.0000,1.0000,28.0000
+Del Tejar,6,4.0000,1.0000,2.0000,2.0000
+Cabildo,11,4.0000,7.0000,null,3.0000
+Alsina,5,14.0000,10.0000,1.0000,12.0000
+Disc Panamericana,23,null,null,null,null
+Santa Fe,14,1.0000,1.0000,null,1.0000
+Bulnes,10,2.0000,2.0000,4.0000,6.0000
+Ovidio Lagos,10,2.0000,11.0000,1.0000,null
+Santa Fe,13,null,1.0000,null,2.0000
+Anchorena,19,null,null,null,null
+Bulnes,1,null,null,null,null
+Santa Fe,22,null,null,null,null
+Disc Panamericana,12,null,2.0000,null,null
+Bulnes,5,null,null,null,null
+Bulnes,2,null,null,null,null
+Bulnes,23,null,null,null,null
+DISC Caraffa,6,null,null,null,null
+Dialogos,3,null,null,null,null
+Rivadavia,10,null,null,null,null
+Santa Rita,4,null,25.0000,1.0000,4.0000
+Alsina,11,3.0000,7.0000,2.0000,11.0000
+Gral Paz Capital,5,33.0000,10.0000,null,29.0000
+Villa Luro,23,2.0000,10.0000,4.0000,23.0000
+Olivos,4,18.0000,null,2.0000,9.0000
+El Club,23,10.0000,7.0000,6.0000,31.0000
+Emilio Castro,15,4.0000,14.0000,2.0000,7.0000
+Zarate,13,3.0000,1.0000,2.0000,null
+Gral Paz Capital,18,41.0000,28.0000,null,80.0000
+DISC Echeverria,23,null,null,null,6.0000
+America,14,2.0000,7.0000,null,16.0000
+Ovidio Lagos,2,null,8.0000,1.0000,14.0000
+Santa Rita,22,null,6.0000,null,4.0000
+Santa Fe,17,4.0000,5.0000,1.0000,2.0000
+Zarate Brazo Largo,19,23.0000,4.0000,2.0000,1.0000
+Ovidio Lagos,14,2.0000,4.0000,2.0000,14.0000
+La Bandera,18,6.0000,null,7.0000,20.0000
+Santa Rita,10,2.0000,12.0000,2.0000,13.0000
+Garay,4,2.0000,8.0000,2.0000,12.0000
+America,13,5.0000,3.0000,null,4.0000
+America,17,5.0000,17.0000,null,10.0000
+Maipu,2,15.0000,null,1.0000,19.0000
+Buen Ayre,18,23.0000,42.0000,20.0000,59.0000
+Zarate Brazo Largo,10,7.0000,2.0000,null,15.0000
+Alberdi,17,null,null,null,26.0000
+Alvear,18,15.0000,22.0000,16.0000,52.0000
+Fisherton,7,3.0000,12.0000,null,6.0000
+Maschwitz,7,null,null,null,103.0000
+Alsina,21,7.0000,11.0000,1.0000,58.0000
+AUBASA LP-BA,12,11.0000,12.0000,4.0000,23.0000
+Bonpland,19,10.0000,17.0000,12.0000,26.0000
+Gral Paz Provincia,6,23.0000,24.0000,7.0000,14.0000
+Gral Paz Provincia,4,18.0000,26.0000,9.0000,19.0000
+San Isidro,5,6.0000,9.0000,null,2.0000
+Gutierrez,19,4.0000,5.0000,6.0000,8.0000
+Los Incas,13,9.0000,2.0000,null,1.0000
+Fisherton,14,1.0000,6.0000,null,32.0000
+Luis Viale,7,1.0000,7.0000,3.0000,10.0000
+Villa Luro,21,2.0000,2.0000,1.0000,3.0000
+Amanecer,16,9.0000,10.0000,null,66.0000
+Alvear,8,17.0000,6.0000,10.0000,15.0000
+La Carmela,12,1.0000,7.0000,null,11.0000
+Amanecer,20,4.0000,7.0000,null,13.0000
+Arroyo Seco,20,46.0000,63.0000,18.0000,53.0000
+Amanecer,8,29.0000,22.0000,null,8.0000
+El Arco,6,6.0000,3.0000,1.0000,3.0000
+La Bandera,8,7.0000,null,null,14.0000
+Villa Luro,20,8.0000,2.0000,8.0000,22.0000
+Emilio Castro,11,5.0000,10.0000,null,7.0000
+Los Incas,22,null,1.0000,null,null
+AUBASA LP-BA,13,6.0000,10.0000,8.0000,32.0000
+Gutierrez,17,8.0000,12.0000,4.0000,14.0000
+El Club,22,7.0000,5.0000,2.0000,29.0000
+San Isidro,11,8.0000,17.0000,3.0000,18.0000
+Maschwitz,5,null,null,null,27.0000
+Buen Ayre,22,4.0000,2.0000,null,12.0000
+AUBASA LP-BA,14,17.0000,37.0000,6.0000,78.0000
+Garay,17,1.0000,21.0000,1.0000,77.0000
+AUBASA BA-LP,9,22.0000,32.0000,21.0000,27.0000
+Dialogos,8,10.0000,5.0000,1.0000,5.0000
+Gral Paz Capital,19,24.0000,18.0000,null,45.0000
+AUBASA LP-BA,7,17.0000,24.0000,1.0000,4.0000
+Fisherton,21,null,4.0000,null,11.0000
+Los Incas,18,8.0000,4.0000,null,2.0000
+Parque Sarmiento,14,3.0000,4.0000,3.0000,28.0000
+Los Incas,16,15.0000,2.0000,null,null
+Luis Viale,9,null,12.0000,4.0000,5.0000
+Lima,13,18.0000,46.0000,7.0000,87.0000
+Florencio Varela,18,21.0000,9.0000,18.0000,14.0000
+Villa Allende,16,3.0000,4.0000,3.0000,23.0000
+Boulevard,14,5.0000,2.0000,4.0000,15.0000
+Del Tejar,7,5.0000,5.0000,3.0000,6.0000
+Fisherton,0,null,2.0000,null,22.0000
+Alsina,23,1.0000,7.0000,1.0000,22.0000
+Emilio Castro,4,7.0000,10.0000,2.0000,5.0000
+Olivos,18,6.0000,7.0000,8.0000,14.0000
+Del Tejar,2,3.0000,7.0000,1.0000,10.0000
+Villa Luro,12,3.0000,2.0000,null,25.0000
+CORS EVENTOS,15,26.0000,89.0000,null,null
+Centenera,5,8.0000,1.0000,1.0000,1.0000
+San Isidro,22,3.0000,4.0000,null,4.0000
+Garay,21,4.0000,7.0000,1.0000,18.0000
+Alberdi,3,null,null,null,5.0000
+Del Tejar,21,3.0000,4.0000,null,8.0000
+Del Tejar,13,2.0000,3.0000,2.0000,7.0000
+Ovidio Lagos,15,1.0000,5.0000,2.0000,26.0000
+Luis Viale,11,null,6.0000,null,6.0000
+Arroyo Seco,9,43.0000,51.0000,17.0000,42.0000
+Alvear,14,3.0000,6.0000,8.0000,27.0000
+Las Heras,22,1.0000,3.0000,null,5.0000
+Amanecer,19,1.0000,12.0000,null,21.0000
+Bonpland,9,10.0000,7.0000,1.0000,8.0000
+Floresta,15,4.0000,7.0000,null,7.0000
+Las Heras,0,null,5.0000,null,3.0000
+Bulnes,16,1.0000,1.0000,3.0000,20.0000
+Dialogos,19,12.0000,15.0000,23.0000,25.0000
+Emilio Castro,20,4.0000,8.0000,4.0000,7.0000
+Las Heras,20,null,2.0000,3.0000,6.0000
+Buen Ayre,12,7.0000,7.0000,4.0000,9.0000
+Arroyo Seco,19,70.0000,75.0000,17.0000,76.0000
+Lima,11,33.0000,54.0000,16.0000,95.0000
+Luis Viale,21,7.0000,8.0000,1.0000,7.0000
+Ovidio Lagos,13,2.0000,2.0000,null,8.0000
+Alsina,2,2.0000,14.0000,3.0000,22.0000
+Santa Rita,3,1.0000,10.0000,3.0000,7.0000
+Zarate Brazo Largo,7,13.0000,1.0000,null,8.0000
+Trelles,7,6.0000,2.0000,4.0000,8.0000
+Gral Paz Capital,6,16.0000,16.0000,null,13.0000
+Villa Allende,21,1.0000,null,null,3.0000
+Alberdi,15,null,null,null,4.0000
+La Bandera,10,5.0000,null,5.0000,11.0000
+Floresta,7,4.0000,6.0000,3.0000,13.0000
+Floresta,12,5.0000,6.0000,3.0000,5.0000
+Trelles,22,2.0000,null,1.0000,2.0000
+America,2,4.0000,12.0000,null,14.0000
+Lima,2,30.0000,68.0000,9.0000,47.0000
+Anchorena,17,null,null,null,null
+Florencio Varela,16,29.0000,4.0000,10.0000,14.0000
+America,20,null,1.0000,null,25.0000
+Laferrere,5,9.0000,10.0000,1.0000,8.0000
+AUBASA LP-BA,19,32.0000,62.0000,23.0000,49.0000
+Zarate,10,5.0000,4.0000,null,8.0000
+Alvear,17,14.0000,23.0000,22.0000,81.0000
+Alsina,19,8.0000,20.0000,3.0000,24.0000
+Libertador,11,6.0000,8.0000,8.0000,18.0000
+Parque Sarmiento,15,7.0000,12.0000,2.0000,29.0000
+El Arco,14,null,null,null,11.0000
+Buen Ayre,1,5.0000,8.0000,1.0000,22.0000
+Villa Allende,20,3.0000,2.0000,5.0000,10.0000
+El Arco,11,null,1.0000,null,6.0000
+El Arco,18,3.0000,1.0000,5.0000,15.0000
+Centenera,7,11.0000,4.0000,6.0000,5.0000
+Bonpland,15,4.0000,17.0000,3.0000,32.0000
+Pilar,9,19.0000,7.0000,3.0000,17.0000
+Del Tejar,8,9.0000,1.0000,2.0000,1.0000
+Libertador,0,8.0000,19.0000,8.0000,31.0000
+Arroyo Seco,10,45.0000,38.0000,18.0000,65.0000
+Las Heras,7,7.0000,9.0000,null,4.0000
+Fisherton,6,4.0000,7.0000,null,8.0000
+El Club,8,11.0000,14.0000,3.0000,18.0000
+Santa Fe,9,5.0000,5.0000,null,3.0000
+Bonpland,21,2.0000,6.0000,null,20.0000
+Libertador,13,4.0000,8.0000,7.0000,17.0000
+America,16,4.0000,14.0000,null,9.0000
+Laferrere,22,1.0000,7.0000,3.0000,22.0000
+Trelles,0,6.0000,5.0000,11.0000,25.0000
+Alsina,15,4.0000,1.0000,2.0000,16.0000
+AUBASA BA-LP,6,48.0000,24.0000,10.0000,8.0000
+Olivos,3,16.0000,3.0000,5.0000,2.0000
+Zarate Brazo Largo,5,6.0000,2.0000,1.0000,null
+Parque Sarmiento,22,10.0000,1.0000,3.0000,2.0000
+Cabildo,16,2.0000,7.0000,null,5.0000
+Maschwitz,22,null,null,null,null
+Luis Viale,4,null,8.0000,1.0000,3.0000
+Alvear,3,7.0000,13.0000,7.0000,22.0000
+Olivos,23,7.0000,null,2.0000,11.0000
+Gral Paz Capital,16,28.0000,20.0000,null,60.0000
+Alvear,21,5.0000,11.0000,7.0000,36.0000
+El Arco,12,1.0000,2.0000,null,7.0000
+Villa Allende,6,2.0000,null,2.0000,2.0000
+Garay,22,2.0000,14.0000,2.0000,14.0000
+Florencio Varela,20,7.0000,2.0000,1.0000,8.0000
+Pilar,16,9.0000,8.0000,2.0000,23.0000
+DISC Echeverria,22,null,null,null,12.0000
+Gral Paz Capital,1,19.0000,5.0000,null,64.0000
+Alvear,16,15.0000,21.0000,17.0000,71.0000
+Ovidio Lagos,21,null,1.0000,null,9.0000
+Santa Rita,15,1.0000,10.0000,null,26.0000
+Gutierrez,12,null,3.0000,2.0000,3.0000
+Santa Fe,8,7.0000,7.0000,1.0000,2.0000
+Congreso,5,2.0000,6.0000,null,12.0000
+Villa Luro,5,1.0000,13.0000,2.0000,2.0000
+La Carmela,4,6.0000,7.0000,1.0000,3.0000
+Emilio Castro,22,1.0000,6.0000,1.0000,5.0000
+Garay,16,5.0000,12.0000,8.0000,43.0000
+Pilar,12,4.0000,2.0000,5.0000,4.0000
+Libertador,18,17.0000,15.0000,15.0000,34.0000
+Garay,15,null,4.0000,5.0000,30.0000
+Gral Paz Provincia,11,13.0000,20.0000,4.0000,13.0000
+Pilar,17,4.0000,11.0000,6.0000,24.0000
+Laferrere,23,6.0000,11.0000,10.0000,28.0000
+Maschwitz,8,null,null,null,82.0000
+Pilar,15,11.0000,7.0000,3.0000,20.0000
+Garay,23,1.0000,5.0000,null,21.0000
+Amanecer,14,5.0000,3.0000,null,13.0000
+Pilar,10,9.0000,14.0000,4.0000,18.0000
+Centenera,21,null,1.0000,1.0000,2.0000
+Alberdi,8,null,null,null,46.0000
+Florencio Varela,6,11.0000,21.0000,4.0000,12.0000
+Villa Allende,13,null,1.0000,1.0000,2.0000
+Cabildo,23,null,4.0000,1.0000,1.0000
+Boulevard,21,2.0000,2.0000,1.0000,8.0000
+Las Heras,3,3.0000,4.0000,7.0000,1.0000
+Santa Fe,21,3.0000,3.0000,null,1.0000
+DISC Echeverria,20,null,null,null,4.0000
+Bulnes,3,null,null,null,null
+Disc Panamericana,10,null,1.0000,null,1.0000
+Alberdi,12,null,null,null,12.0000
+Congreso,9,10.0000,5.0000,2.0000,6.0000
+Maipu,6,6.0000,2.0000,1.0000,5.0000
+Disc Panamericana,19,null,null,null,null
+Luis Viale,1,2.0000,6.0000,null,17.0000
+Quilmes,4,5.0000,6.0000,null,14.0000
+Disc Panamericana,20,null,null,null,1.0000
+Disc Panamericana,3,null,1.0000,null,null
+Fisherton,10,2.0000,9.0000,null,11.0000
+Disc Panamericana,8,null,1.0000,null,null
+Bulnes,0,null,null,null,null
+CORS EVENTOS,9,2.0000,null,null,null
+Anchorena,8,null,null,null,null
+Villa Allende,8,5.0000,1.0000,null,2.0000
+Zarate,3,1.0000,1.0000,null,null
+CORS EVENTOS,12,null,5.0000,null,null
+Anchorena,4,null,null,null,null
+Villa Allende,5,null,null,null,null
+Anchorena,23,null,null,null,null
+DISC Caraffa,3,null,null,null,null
+Anchorena,7,null,null,null,null
+Boulevard,5,null,null,null,null
+Villa Allende,1,null,null,null,null
+Rivadavia,21,null,null,null,null
+Dialogos,4,null,null,null,null
+Gral Paz Provincia,15,8.0000,16.0000,5.0000,63.0000
+Dialogos,13,null,null,1.0000,9.0000
+Santa Rita,18,3.0000,13.0000,null,17.0000
+Laferrere,13,1.0000,1.0000,null,15.0000
+Centenera,3,4.0000,null,2.0000,1.0000
+Parque Sarmiento,9,11.0000,2.0000,null,8.0000
+Floresta,21,null,3.0000,null,19.0000
+Laferrere,11,2.0000,4.0000,3.0000,3.0000
+Olivos,21,7.0000,3.0000,1.0000,8.0000
+La Carmela,13,4.0000,2.0000,null,14.0000
+Villa Luro,19,6.0000,10.0000,6.0000,24.0000
+Buen Ayre,6,10.0000,5.0000,6.0000,8.0000
+Emilio Castro,2,15.0000,8.0000,4.0000,7.0000
+Dialogos,14,6.0000,13.0000,1.0000,13.0000
+Dialogos,6,10.0000,12.0000,3.0000,5.0000
+San Isidro,19,7.0000,20.0000,6.0000,27.0000
+Anchorena,0,null,null,null,null
+Libertador,4,5.0000,12.0000,5.0000,13.0000
+Alsina,10,10.0000,12.0000,1.0000,19.0000
+Alvear,10,10.0000,13.0000,7.0000,38.0000
+Olivos,19,11.0000,3.0000,2.0000,7.0000
+Villa Luro,7,18.0000,23.0000,2.0000,5.0000
+La Carmela,11,6.0000,1.0000,null,5.0000
+Boulevard,10,8.0000,10.0000,4.0000,20.0000
+Parque Sarmiento,1,13.0000,2.0000,null,4.0000
+Fisherton,11,1.0000,8.0000,null,32.0000
+Parque Sarmiento,0,14.0000,null,1.0000,2.0000
+Libertador,20,4.0000,14.0000,7.0000,15.0000
+Villa Allende,11,2.0000,1.0000,1.0000,12.0000
+Villa Luro,8,8.0000,19.0000,11.0000,11.0000
+Floresta,16,4.0000,7.0000,null,16.0000
+Libertador,22,5.0000,12.0000,2.0000,15.0000
+Dialogos,22,5.0000,7.0000,3.0000,2.0000
+El Club,14,6.0000,8.0000,6.0000,49.0000
+Pilar,19,5.0000,8.0000,1.0000,18.0000
+Emilio Castro,3,8.0000,14.0000,2.0000,4.0000
+Laferrere,17,6.0000,5.0000,8.0000,13.0000
+AUBASA BA-LP,17,30.0000,53.0000,27.0000,60.0000
+Alsina,1,4.0000,5.0000,null,21.0000
+AUBASA LP-BA,10,15.0000,25.0000,7.0000,24.0000
+Maipu,9,5.0000,5.0000,8.0000,14.0000
+Los Incas,1,8.0000,2.0000,null,1.0000
+Buen Ayre,5,7.0000,5.0000,3.0000,2.0000
+Gral Paz Provincia,3,4.0000,17.0000,8.0000,23.0000
+Quilmes,6,7.0000,23.0000,4.0000,9.0000
+Los Incas,20,4.0000,null,null,1.0000
+Olivos,9,21.0000,4.0000,9.0000,3.0000
+AUBASA BA-LP,10,30.0000,48.0000,10.0000,21.0000
+Bonpland,23,4.0000,9.0000,5.0000,30.0000
+La Carmela,7,16.0000,12.0000,13.0000,9.0000
+Fisherton,3,null,1.0000,null,6.0000
+AUBASA BA-LP,7,21.0000,20.0000,17.0000,20.0000
+America,3,5.0000,5.0000,null,9.0000
+Gral Paz Capital,10,30.0000,28.0000,null,40.0000
+Bonpland,10,8.0000,11.0000,6.0000,18.0000
+Gral Paz Provincia,17,32.0000,26.0000,18.0000,34.0000
+Zarate,9,5.0000,6.0000,1.0000,3.0000
+Del Tejar,0,3.0000,6.0000,null,24.0000
+Garay,18,3.0000,16.0000,null,82.0000
+Laferrere,1,9.0000,17.0000,7.0000,14.0000
+Floresta,9,3.0000,10.0000,null,11.0000
+AUBASA BA-LP,16,22.0000,61.0000,18.0000,70.0000
+Zarate,22,2.0000,2.0000,2.0000,null
+Maschwitz,18,null,null,null,53.0000
+Congreso,10,8.0000,5.0000,null,5.0000
+Trelles,23,8.0000,6.0000,2.0000,4.0000
+Arroyo Seco,17,138.0000,198.0000,42.0000,222.0000
+Las Heras,21,4.0000,2.0000,2.0000,4.0000
+Las Heras,15,4.0000,9.0000,3.0000,13.0000
+Santa Fe,12,null,1.0000,3.0000,null
+Pilar,14,1.0000,2.0000,1.0000,12.0000
+AUBASA LP-BA,18,45.0000,51.0000,26.0000,80.0000
+Congreso,7,8.0000,4.0000,null,5.0000
+DISC Echeverria,8,null,null,null,35.0000
+Parque Sarmiento,5,16.0000,null,null,7.0000
+Quilmes,17,13.0000,9.0000,7.0000,24.0000
+Trelles,13,1.0000,2.0000,4.0000,10.0000
+Boulevard,15,3.0000,10.0000,1.0000,43.0000
+Del Tejar,16,3.0000,1.0000,6.0000,30.0000
+Florencio Varela,14,12.0000,5.0000,5.0000,24.0000
+Gral Paz Provincia,20,4.0000,22.0000,4.0000,24.0000
+Libertador,9,6.0000,14.0000,4.0000,6.0000
+Alberdi,7,null,null,null,32.0000
+Luis Viale,17,11.0000,8.0000,4.0000,47.0000
+Amanecer,1,3.0000,6.0000,null,11.0000
+Cabildo,8,4.0000,2.0000,2.0000,null
+Buen Ayre,4,1.0000,3.0000,null,2.0000
+Congreso,4,1.0000,2.0000,null,5.0000
+Boulevard,20,2.0000,8.0000,5.0000,11.0000
+Libertador,3,4.0000,6.0000,3.0000,10.0000
+Alsina,20,4.0000,18.0000,4.0000,38.0000
+Emilio Castro,23,3.0000,5.0000,2.0000,4.0000
+El Arco,15,1.0000,null,1.0000,22.0000
+Libertador,23,2.0000,9.0000,3.0000,23.0000
+Las Heras,11,5.0000,3.0000,3.0000,13.0000
+DISC Echeverria,1,null,null,null,15.0000
+Bonpland,0,3.0000,13.0000,6.0000,28.0000
+Florencio Varela,12,2.0000,12.0000,5.0000,9.0000
+Gral Paz Provincia,5,17.0000,23.0000,3.0000,17.0000
+Alvear,5,2.0000,20.0000,6.0000,19.0000
+Florencio Varela,8,30.0000,20.0000,13.0000,13.0000
+Garay,8,15.0000,9.0000,7.0000,9.0000
+Ovidio Lagos,4,4.0000,3.0000,null,8.0000
+Ovidio Lagos,18,3.0000,5.0000,1.0000,30.0000
+Villa Luro,1,6.0000,4.0000,2.0000,14.0000
+Laferrere,12,1.0000,4.0000,2.0000,19.0000
+Pilar,18,8.0000,4.0000,5.0000,42.0000
+DISC Echeverria,5,null,null,null,45.0000
+America,22,3.0000,4.0000,null,10.0000
+El Club,21,1.0000,13.0000,1.0000,15.0000
+Santa Rita,9,4.0000,7.0000,1.0000,5.0000
+Florencio Varela,10,11.0000,18.0000,8.0000,17.0000
+Luis Viale,16,10.0000,9.0000,5.0000,42.0000
+Arroyo Seco,16,120.0000,174.0000,48.0000,235.0000
+Centenera,9,18.0000,5.0000,13.0000,33.0000
+DISC Echeverria,3,null,null,null,13.0000
+Trelles,12,2.0000,4.0000,9.0000,10.0000
+El Club,2,12.0000,29.0000,5.0000,20.0000
+Emilio Castro,10,4.0000,5.0000,1.0000,5.0000
+Cabildo,17,6.0000,5.0000,6.0000,5.0000
+Gral Paz Capital,11,30.0000,25.0000,null,49.0000
+Pilar,8,20.0000,8.0000,6.0000,11.0000
+Arroyo Seco,0,49.0000,41.0000,3.0000,17.0000
+El Club,9,9.0000,8.0000,11.0000,19.0000
+Gral Paz Provincia,8,18.0000,23.0000,4.0000,13.0000
+Maschwitz,21,null,null,null,6.0000
+Trelles,16,4.0000,3.0000,7.0000,20.0000
+Zarate Brazo Largo,4,8.0000,null,null,9.0000
+El Club,11,10.0000,6.0000,6.0000,33.0000
+Zarate,19,12.0000,4.0000,1.0000,2.0000
+Congreso,17,8.0000,8.0000,3.0000,20.0000
+Buen Ayre,23,4.0000,7.0000,1.0000,32.0000
+Las Heras,10,14.0000,6.0000,1.0000,6.0000
+Laferrere,15,1.0000,1.0000,3.0000,6.0000
+Garay,11,5.0000,3.0000,2.0000,12.0000
+Los Incas,15,4.0000,4.0000,null,null
+Centenera,8,25.0000,13.0000,5.0000,2.0000
+El Club,10,9.0000,9.0000,8.0000,15.0000
+San Isidro,1,9.0000,7.0000,3.0000,15.0000
+Emilio Castro,21,3.0000,6.0000,null,4.0000
+San Isidro,0,6.0000,10.0000,10.0000,28.0000
+Florencio Varela,1,null,4.0000,9.0000,15.0000
+Las Heras,16,17.0000,11.0000,2.0000,9.0000
+Buen Ayre,8,19.0000,15.0000,7.0000,15.0000
+Alberdi,11,null,null,null,20.0000
+Bulnes,15,2.0000,null,2.0000,10.0000
+Lima,21,30.0000,60.0000,6.0000,43.0000
+Parque Sarmiento,11,12.0000,2.0000,2.0000,2.0000
+Centenera,23,3.0000,1.0000,2.0000,null
+Bulnes,17,3.0000,3.0000,3.0000,16.0000
+Villa Allende,19,3.0000,2.0000,8.0000,16.0000
+Zarate,12,6.0000,3.0000,null,8.0000
+Alberdi,18,null,null,null,23.0000
+Del Tejar,10,4.0000,null,2.0000,4.0000
+Gutierrez,7,11.0000,12.0000,4.0000,10.0000
+America,0,4.0000,8.0000,null,19.0000
+Dialogos,7,13.0000,12.0000,5.0000,10.0000
+Lima,22,38.0000,55.0000,4.0000,57.0000
+Alberdi,6,null,null,null,118.0000
+Santa Rita,14,null,4.0000,null,18.0000
+AUBASA LP-BA,8,24.0000,23.0000,7.0000,21.0000
+Zarate Brazo Largo,15,18.0000,2.0000,1.0000,15.0000
+Floresta,23,2.0000,10.0000,null,18.0000
+Lima,18,175.0000,251.0000,59.0000,278.0000
+Villa Luro,18,22.0000,21.0000,15.0000,40.0000
+Zarate Brazo Largo,12,6.0000,1.0000,null,6.0000
+Gutierrez,4,9.0000,14.0000,1.0000,null
+Alvear,6,40.0000,45.0000,13.0000,21.0000
+Gutierrez,13,null,3.0000,3.0000,4.0000
+Los Incas,21,1.0000,null,null,1.0000
+Alsina,13,2.0000,7.0000,3.0000,17.0000
+El Arco,7,4.0000,5.0000,3.0000,7.0000
+Ovidio Lagos,3,null,5.0000,null,6.0000
+Garay,14,3.0000,1.0000,2.0000,25.0000
+DISC Echeverria,21,null,null,null,2.0000
+Floresta,14,1.0000,2.0000,null,11.0000
+Villa Luro,17,25.0000,35.0000,6.0000,37.0000
+Villa Allende,18,1.0000,9.0000,null,17.0000
+Amanecer,4,4.0000,6.0000,null,11.0000
+Boulevard,18,13.0000,9.0000,21.0000,57.0000
+Ovidio Lagos,5,1.0000,3.0000,1.0000,15.0000
+Amanecer,9,16.0000,9.0000,null,9.0000
+AUBASA LP-BA,11,17.0000,36.0000,7.0000,41.0000
+Bonpland,2,11.0000,10.0000,9.0000,14.0000
+Congreso,19,6.0000,3.0000,1.0000,13.0000
+Zarate Brazo Largo,1,8.0000,14.0000,2.0000,16.0000
+Garay,19,3.0000,9.0000,4.0000,42.0000
+Las Heras,6,21.0000,2.0000,1.0000,5.0000
+Bulnes,11,6.0000,1.0000,3.0000,9.0000
+Gral Paz Provincia,19,19.0000,39.0000,12.0000,22.0000
+Trelles,2,9.0000,7.0000,1.0000,28.0000
+Zarate Brazo Largo,0,7.0000,4.0000,null,8.0000
+Los Incas,4,9.0000,1.0000,null,1.0000
+Cabildo,14,2.0000,1.0000,1.0000,6.0000
+AUBASA BA-LP,23,6.0000,31.0000,5.0000,38.0000
+Lima,12,22.0000,55.0000,12.0000,93.0000
+Amanecer,22,null,5.0000,null,23.0000
+Las Heras,18,19.0000,23.0000,3.0000,10.0000
+Pilar,0,null,15.0000,2.0000,13.0000
+Congreso,2,10.0000,8.0000,null,3.0000
+Buen Ayre,9,22.0000,17.0000,10.0000,5.0000
+Florencio Varela,7,18.0000,21.0000,5.0000,13.0000
+Del Tejar,4,1.0000,2.0000,1.0000,2.0000
+Florencio Varela,21,8.0000,1.0000,1.0000,7.0000
+Gral Paz Provincia,10,16.0000,36.0000,12.0000,20.0000
+Fisherton,5,null,null,null,1.0000
+La Bandera,21,null,null,null,9.0000
+Emilio Castro,0,11.0000,14.0000,1.0000,7.0000
+Pilar,7,14.0000,18.0000,null,4.0000
+Libertador,16,11.0000,11.0000,9.0000,43.0000
+Centenera,18,19.0000,6.0000,4.0000,8.0000
+Lima,4,22.0000,48.0000,10.0000,25.0000
+Dialogos,1,4.0000,2.0000,null,2.0000
+Parque Sarmiento,18,5.0000,17.0000,null,21.0000
+Olivos,10,16.0000,1.0000,6.0000,2.0000
+La Carmela,6,30.0000,12.0000,3.0000,8.0000
+Centenera,22,null,1.0000,null,1.0000
+Florencio Varela,4,null,2.0000,null,4.0000
+Gral Paz Capital,2,16.0000,10.0000,null,32.0000
+Congreso,18,10.0000,10.0000,1.0000,14.0000
+Villa Allende,15,2.0000,1.0000,1.0000,22.0000
+Floresta,8,8.0000,10.0000,null,4.0000
+Lima,16,117.0000,248.0000,47.0000,338.0000
+Trelles,3,6.0000,5.0000,2.0000,41.0000
+Santa Fe,19,4.0000,3.0000,1.0000,3.0000
+Del Tejar,15,8.0000,2.0000,4.0000,32.0000
+Los Incas,3,11.0000,4.0000,null,1.0000
+Villa Allende,17,8.0000,2.0000,null,14.0000
+San Isidro,9,14.0000,11.0000,4.0000,6.0000
+Maipu,16,null,12.0000,3.0000,18.0000
+Pilar,2,1.0000,4.0000,4.0000,5.0000
+Buen Ayre,15,8.0000,27.0000,6.0000,66.0000
+Alvear,7,24.0000,15.0000,11.0000,15.0000
+Arroyo Seco,12,27.0000,43.0000,9.0000,89.0000
+Garay,2,3.0000,13.0000,2.0000,10.0000
+AUBASA BA-LP,0,15.0000,34.0000,3.0000,52.0000
+Quilmes,7,13.0000,24.0000,4.0000,9.0000
+La Carmela,9,12.0000,12.0000,11.0000,10.0000
+Zarate,1,6.0000,2.0000,null,null
+Fisherton,17,null,6.0000,null,61.0000
+El Club,17,23.0000,16.0000,18.0000,53.0000
+Trelles,14,3.0000,4.0000,4.0000,19.0000
+DISC Echeverria,7,null,null,null,18.0000
+AUBASA BA-LP,15,22.0000,59.0000,15.0000,68.0000
+Maipu,8,12.0000,7.0000,14.0000,21.0000
+Laferrere,0,12.0000,13.0000,8.0000,15.0000
+Maschwitz,6,null,null,null,68.0000
+Zarate Brazo Largo,17,18.0000,10.0000,null,12.0000
+Santa Rita,1,2.0000,10.0000,1.0000,6.0000
+Santa Rita,20,null,2.0000,null,8.0000
+Parque Sarmiento,21,5.0000,6.0000,1.0000,10.0000
+Pilar,13,1.0000,3.0000,3.0000,14.0000
+Arroyo Seco,6,50.0000,36.0000,15.0000,28.0000
+Parque Sarmiento,7,10.0000,3.0000,1.0000,10.0000
+Fisherton,19,5.0000,13.0000,null,63.0000
+Maschwitz,9,null,null,null,92.0000
+Alberdi,23,null,null,null,5.0000
+America,12,1.0000,1.0000,null,17.0000
+Congreso,13,7.0000,4.0000,null,10.0000
+Lima,9,41.0000,61.0000,21.0000,73.0000
+Congreso,20,1.0000,1.0000,null,1.0000
+Quilmes,13,1.0000,3.0000,3.0000,12.0000
+Los Incas,12,15.0000,3.0000,null,null
+Zarate Brazo Largo,18,20.0000,7.0000,1.0000,14.0000
+Santa Rita,6,1.0000,24.0000,1.0000,7.0000
+Centenera,1,5.0000,4.0000,1.0000,3.0000
+Congreso,3,9.0000,4.0000,null,2.0000
+La Bandera,11,3.0000,null,2.0000,16.0000
+Amanecer,5,14.0000,10.0000,null,5.0000
+Libertador,6,2.0000,10.0000,2.0000,15.0000
+El Club,4,8.0000,2.0000,4.0000,7.0000
+Floresta,1,2.0000,15.0000,1.0000,15.0000
+Trelles,9,3.0000,2.0000,1.0000,5.0000
+Garay,6,18.0000,11.0000,null,17.0000
+Arroyo Seco,15,104.0000,150.0000,25.0000,270.0000
+Lima,15,80.0000,202.0000,20.0000,275.0000
+Gral Paz Provincia,12,9.0000,15.0000,4.0000,24.0000
+Los Incas,19,9.0000,5.0000,null,1.0000
+Floresta,4,1.0000,10.0000,3.0000,8.0000
+Ovidio Lagos,20,null,5.0000,1.0000,24.0000
+Maipu,22,3.0000,2.0000,4.0000,7.0000
+Bonpland,8,29.0000,28.0000,7.0000,22.0000
+Gutierrez,10,6.0000,12.0000,null,3.0000
+Dialogos,10,9.0000,9.0000,5.0000,7.0000
+Zarate Brazo Largo,2,8.0000,3.0000,null,23.0000
+DISC Caraffa,16,null,null,null,12.0000
+Trelles,20,3.0000,2.0000,3.0000,5.0000
+San Isidro,10,10.0000,13.0000,3.0000,16.0000
+Garay,9,6.0000,4.0000,1.0000,22.0000
+Luis Viale,3,null,7.0000,3.0000,16.0000
+AUBASA LP-BA,9,17.0000,21.0000,7.0000,31.0000
+AUBASA LP-BA,3,14.0000,27.0000,3.0000,22.0000
+Quilmes,19,6.0000,5.0000,8.0000,15.0000
+Quilmes,10,8.0000,8.0000,1.0000,8.0000
+America,4,1.0000,11.0000,null,2.0000
+Dialogos,15,12.0000,10.0000,2.0000,13.0000
+San Isidro,7,11.0000,16.0000,1.0000,4.0000
+AUBASA LP-BA,22,9.0000,21.0000,7.0000,40.0000
+Alberdi,4,null,null,null,6.0000
+Los Incas,2,10.0000,5.0000,null,1.0000
+Congreso,15,3.0000,7.0000,2.0000,16.0000
+Quilmes,15,3.0000,8.0000,5.0000,18.0000
+Alvear,23,2.0000,11.0000,12.0000,44.0000
+Maschwitz,16,null,null,null,24.0000
+Florencio Varela,15,9.0000,5.0000,6.0000,17.0000
+Buen Ayre,20,8.0000,12.0000,6.0000,21.0000
+Zarate Brazo Largo,21,3.0000,null,null,6.0000
+San Isidro,23,8.0000,9.0000,3.0000,7.0000
+Floresta,5,null,2.0000,1.0000,14.0000
+Anchorena,5,null,null,null,null
+Alvear,20,5.0000,20.0000,8.0000,42.0000
+Maschwitz,3,null,null,null,12.0000
+Arroyo Seco,4,17.0000,19.0000,2.0000,4.0000
+Villa Luro,16,8.0000,10.0000,5.0000,41.0000
+San Isidro,2,6.0000,9.0000,1.0000,6.0000
+La Carmela,23,5.0000,5.0000,1.0000,7.0000
+Florencio Varela,22,5.0000,7.0000,null,8.0000
+Dialogos,23,11.0000,1.0000,null,3.0000
+Quilmes,1,6.0000,5.0000,3.0000,13.0000
+Maschwitz,10,null,null,null,74.0000
+Quilmes,0,3.0000,8.0000,3.0000,26.0000
+Villa Luro,3,null,9.0000,8.0000,7.0000
+Del Tejar,12,2.0000,null,6.0000,7.0000
+Arroyo Seco,23,20.0000,29.0000,3.0000,11.0000
+Del Tejar,14,1.0000,null,4.0000,6.0000
+Santa Fe,18,4.0000,10.0000,3.0000,4.0000
+DISC Echeverria,12,null,null,null,13.0000
+Villa Luro,4,1.0000,4.0000,null,4.0000
+Buen Ayre,3,11.0000,3.0000,6.0000,2.0000
+Amanecer,17,10.0000,10.0000,null,37.0000
+Alvear,2,6.0000,11.0000,20.0000,56.0000
+Alsina,17,10.0000,16.0000,4.0000,73.0000
+Parque Sarmiento,4,14.0000,1.0000,null,3.0000
+San Isidro,8,16.0000,13.0000,8.0000,14.0000
+Gutierrez,5,13.0000,12.0000,4.0000,4.0000
+Buen Ayre,21,2.0000,4.0000,2.0000,12.0000
+Cabildo,21,2.0000,6.0000,1.0000,3.0000
+DISC Echeverria,14,null,null,null,4.0000
+AUBASA LP-BA,23,8.0000,19.0000,7.0000,14.0000
+Alberdi,5,null,null,null,15.0000
+CORS EVENTOS,11,25.0000,11.0000,null,null
+Boulevard,11,3.0000,7.0000,null,20.0000
+Centenera,6,11.0000,1.0000,5.0000,6.0000
+Fisherton,9,1.0000,2.0000,null,7.0000
+Zarate Brazo Largo,9,9.0000,3.0000,null,10.0000
+DISC Echeverria,6,null,null,null,31.0000
+Alsina,3,5.0000,20.0000,null,32.0000
+Rivadavia,12,null,null,null,null
+Anchorena,1,null,null,null,null
+Floresta,3,8.0000,20.0000,4.0000,7.0000
+Fisherton,4,null,null,null,2.0000
+Garay,5,6.0000,7.0000,null,6.0000
+Cabildo,5,1.0000,4.0000,null,1.0000
+Libertador,2,2.0000,8.0000,4.0000,19.0000
+Del Tejar,9,2.0000,1.0000,5.0000,9.0000
+Ovidio Lagos,11,2.0000,4.0000,2.0000,5.0000
+DISC Echeverria,15,null,null,null,5.0000
+Gutierrez,20,2.0000,5.0000,2.0000,3.0000
+Cabildo,22,3.0000,null,null,4.0000
+Villa Allende,10,3.0000,2.0000,1.0000,4.0000
+Florencio Varela,5,null,3.0000,3.0000,null
+America,23,5.0000,12.0000,null,11.0000
+Arroyo Seco,1,18.0000,35.0000,1.0000,7.0000
+Villa Allende,9,6.0000,4.0000,1.0000,4.0000
+Anchorena,15,null,null,null,null
+Trelles,15,5.0000,7.0000,3.0000,14.0000
+Maschwitz,23,null,null,null,1.0000
+San Isidro,4,2.0000,7.0000,1.0000,5.0000
+Disc Panamericana,15,null,2.0000,null,1.0000
+Boulevard,8,4.0000,5.0000,2.0000,5.0000
+Congreso,12,3.0000,null,1.0000,5.0000
+Fisherton,22,null,1.0000,null,4.0000
+Los Incas,6,9.0000,6.0000,null,null
+Cabildo,9,7.0000,3.0000,1.0000,3.0000
+Quilmes,12,2.0000,6.0000,null,13.0000
+Bulnes,14,3.0000,4.0000,1.0000,10.0000
+Anchorena,18,null,null,null,null
+Disc Panamericana,14,1.0000,null,null,null
+CORS EVENTOS,8,null,4.0000,null,null
+DISC Caraffa,20,null,null,1.0000,1.0000
+Maschwitz,1,null,null,null,7.0000
+Quilmes,5,3.0000,4.0000,null,2.0000
+La Bandera,7,2.0000,null,null,1.0000
+Bulnes,9,11.0000,7.0000,4.0000,7.0000
+DISC Caraffa,11,null,1.0000,null,2.0000
+Anchorena,16,null,null,null,null
+CORS EVENTOS,14,15.0000,50.0000,null,1.0000
+DISC Caraffa,0,null,null,null,null
+Bulnes,22,null,null,null,null
+Ovidio Lagos,7,2.0000,11.0000,2.0000,2.0000
+Dialogos,5,null,null,null,null
+Rivadavia,20,null,null,null,null
+DISC Caraffa,22,null,null,null,4.0000
+Disc Panamericana,5,null,null,null,null
+DISC Caraffa,8,null,2.0000,null,1.0000
+Disc Panamericana,22,null,null,null,null
+Anchorena,20,null,null,null,null
+CORS EVENTOS,16,22.0000,35.0000,null,null
+CORS EVENTOS,13,6.0000,11.0000,null,null
+Disc Panamericana,0,null,3.0000,null,null
+Anchorena,21,null,null,null,null
+Disc Panamericana,1,null,null,null,null
+Zarate,4,null,null,null,null
+Anchorena,2,null,null,null,null
+Disc Panamericana,4,null,null,null,null
+CORS EVENTOS,10,4.0000,8.0000,null,null
+Anchorena,13,null,null,null,null
+Rivadavia,13,null,null,null,null
+DISC Caraffa,4,null,null,null,null
+Villa Allende,4,2.0000,null,1.0000,3.0000
+Anchorena,14,null,null,null,null
+DISC Caraffa,5,null,null,null,null
+DISC Caraffa,1,null,null,null,null
+Villa Allende,3,null,null,null,null
+Rivadavia,9,null,null,null,null
+CORS EVENTOS,18,1.0000,2.0000,null,null
+Villa Allende,23,null,null,null,null
+El Arco,5,null,null,null,null

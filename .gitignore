@@ -1,0 +1,12 @@
+# Entorno
+.env
+*.env
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+
+# Reportes generados (artefactos, no versionados)
+reports/
+
+# Claude Code
+.claude/settings.local.json
