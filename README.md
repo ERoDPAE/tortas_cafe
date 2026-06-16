@@ -4,7 +4,7 @@ Análisis de mix de ventas de café en estaciones de servicio Axion Energy. Gene
 
 ## Descripción
 
-Los datos provienen de exportaciones del sistema POS, agrupados por estación y hora. El análisis clasifica cada venta en una jerarquía de 5 niveles orientada a decisiones de promociones:
+Los datos provienen de exportaciones, agrupados por estación y hora. El análisis clasifica cada venta en una jerarquía de 5 niveles orientada a decisiones de promociones:
 
 ```
 LLevar / Local
@@ -48,10 +48,8 @@ El reporte se genera en `reports/tortas_cafe.html`.
 pip install pandas plotly openpyxl
 ```
 
-Requiere Python en el entorno conda `cafe_analysis`.
-
 ## Datos
 
-Los CSVs en `data/raw/` son exportaciones del sistema POS agrupadas por estación y hora. Cada archivo corresponde a un nivel de la jerarquía de productos. Para actualizar los datos, re-exportar las 17 consultas desde la herramienta BI de origen y reemplazar los archivos.
+Los CSVs en `data/raw/` son exportaciones de un sistema POS agrupadas por estación y hora. Cada archivo corresponde a un nivel de la jerarquía de productos. Para actualizar los datos, re-exportar las 17 consultas y reemplazar los archivos.
 
 `data/processed/df_cluster_resultados_finales.xlsx` contiene la asignación manual de cada estación a un cluster de comportamiento similar.
