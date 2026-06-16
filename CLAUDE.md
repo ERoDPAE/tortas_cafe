@@ -6,8 +6,9 @@ Sales mix analysis for Axion Energy café outlets at gas stations. Generates a s
 
 ## Environment
 
-- Conda env: `cafe_analysis` at `C:\Users\XEXR15\.conda\envs\cafe_analysis`
-- Python executable: `C:\Users\XEXR15\.conda\envs\cafe_analysis\python.exe`
+- Target conda env: `cafe_analysis` (not yet created — use base for now)
+- Current Python: `C:\ProgramData\Anaconda3\python.exe` (base env, has all required packages)
+- To create dedicated env: `conda create -n cafe_analysis python=3.11 pandas plotly openpyxl`
 
 ## Running the report
 
