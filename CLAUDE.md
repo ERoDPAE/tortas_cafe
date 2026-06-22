@@ -10,33 +10,67 @@ Sales mix analysis for Axion Energy café outlets at gas stations. Generates a s
 - Current Python: `C:\ProgramData\Anaconda3\python.exe` (base env, has all required packages)
 - To create dedicated env: `conda create -n cafe_analysis python=3.11 pandas plotly openpyxl`
 
-## Running the report
+## Running the pipeline
+
+Two separate stages: extraction (pulls fresh CSVs from Databricks) and report-building (reads
+whatever CSVs are in `data/raw/` and builds the HTML report). Run extraction only when you want
+fresh data; re-run the report any time without re-extracting.
 
 ```bash
+# 1. Extract — requires tortas_cafe/.env with Databricks credentials (copy from .env.example)
+python src/extract_databricks.py --start-date 2025-01-01 --end-date 2025-05-01
+
+# 2. Build the report from whatever is in data/raw/
 python src/tortas_cafe.py
 ```
 
 Output: `reports/tortas_cafe.html` (self-contained, no server needed).
 
+### Databricks credentials
+
+Copy `.env.example` to `.env` (gitignored) and fill in:
+
+```
+DATABRICKS_SERVER_HOSTNAME=...
+DATABRICKS_HTTP_PATH=...
+DATABRICKS_TOKEN=...
+```
+
 ## Project structure
 
 ```
-data/raw/           # 17 CSV exports from POS BI tool (export_1.csv … export_17.csv)
-data/processed/     # df_cluster_resultados_finales.xlsx — station-to-cluster mapping
+data/raw/                # 17 CSV exports (export_1.csv … export_17.csv), written by extract_databricks.py
+data/processed/           # df_cluster_resultados_finales.xlsx — station-to-cluster mapping
 src/
-  tortas_cafe.py    # Main script: load → clean → classify → build charts → export HTML
-reports/            # Generated HTML reports (gitignored)
-legacy/             # Original R implementation (reference only, not maintained)
-  older/            # Pre-May-2025 versions
+  extract_databricks.py  # Stage 1: pulls the 17 queries from Databricks for a date range → data/raw/*.csv
+  tortas_cafe.py          # Stage 2: load → clean → classify → build charts → export HTML
+reports/                  # Generated HTML reports (gitignored)
+legacy/                   # Original R implementation + legacy Databricks notebook (reference only, not maintained)
+  older/                  # Pre-May-2025 versions
+.env.example              # Template for the required Databricks credentials (.env is gitignored)
 ```
 
 ## Data
 
-- Each CSV has columns: `estacion`, `hora`, and one or more `q_cafes_*` columns.
+- Each CSV has columns: `estacion`, `dia_semana`, `hora`, and one or more `q_cafes_*` columns.
+- `dia_semana` follows Spark/Hive's `dayofweek()` convention: 1=Sunday .. 7=Saturday (see `WEEKDAY_ES`/`WEEKDAY_ORDER` in `tortas_cafe.py`, which reorders to Monday-first for display).
 - `null` values in CSVs are string literals from the DB export — cast to numeric, treat as 0.
-- The 17 files represent different levels of the product hierarchy and must be merged on `(estacion, hora)`.
+- The 17 files represent different levels of the product hierarchy and must be merged on `(estacion, dia_semana, hora)`.
 - Minimum threshold: stations with fewer than 3500 total coffees are excluded from charts.
 - Excluded stations: `DISC CARAFFA`, `DISC ECHEVERRIA`, `DISC PANAMERICANA`, `CORS EVENTOS`.
+
+## Day-of-week selector and weekly chart
+
+- The header day-selector (Todos los días / Días de semana / Fin de semana / individual day) recomputes
+  the sunburst, treemap, and the two 24h daily line charts client-side (`Plotly.restyle`, no server, no
+  re-render) — it does **not** affect the weekly chart below them.
+- The weekly chart (168 continuous points, Mon 00h → Sun 23h) is always all-days; it has its own
+  independent day-normalized / week-normalized toggle in the header, separate from the day-selector.
+- Implementation: each section embeds a compact `(dia_semana, hora)` → counts payload
+  (`SECTION_DATA[slug]`, columns referenced by index via `DATA_COLS` to keep the JSON small); Red Total
+  and Cluster sections additionally embed a per-station breakdown so the "Normalizada" (median-per-station)
+  sunburst/treemap variant stays exactly correct under any day filter. The JS in `HTML_TEMPLATE` mirrors
+  `_build_tree()` / `make_hourly()` / `sunburst_data_normalized()` exactly — keep them in sync if either side changes.
 
 ## Hierarchy
 
@@ -50,12 +84,13 @@ Level 5 — Nivel5:  Sin Sandwich / Sandwich / Caramelo
 
 Detected from column names (e.g. `q_cafes_llevar_algo_leche_bakery`).
 
-## Chart types (to implement)
+## Chart types
 
 - **Sunburst** — full 5-level hierarchy, interactive drill-down
 - **Treemap** — same hierarchy, easier area comparison
-- **Hourly distribution** — line chart, % of daily volume by hour
-- **Unit count** — 1-unit vs >1-unit tickets
+- **Hourly distribution** — line chart, % of daily volume by hour (day-selector applies)
+- **Unit count** — 1-unit vs >1-unit tickets (day-selector applies)
+- **Weekly distribution / weekly unit count** — 168-point continuous Mon→Sun line charts, day-norm/week-norm toggle (day-selector does not apply)
 
 Report sections: Red Total → Nivel Cluster → Nivel Estación.
 Both raw-total and station-median-normalized versions for network and cluster sections.
@@ -63,5 +98,5 @@ Both raw-total and station-median-normalized versions for network and cluster se
 ## Dependencies
 
 ```
-pip install pandas plotly openpyxl
+pip install pandas plotly openpyxl databricks-sql-connector python-dotenv
 ```
