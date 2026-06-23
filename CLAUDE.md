@@ -79,7 +79,7 @@ legacy/                   # Original R implementation + legacy Databricks notebo
 ## Hierarchy
 
 ```
-Level 1 — Nivel1:  LLevar / Local            (to-go vs sit-in)
+Level 1 — Nivel1:  Llevar / Local            (to-go vs sit-in)
 Level 2 — Nivel2:  Solo / Algo               (no food / with food)
 Level 3 — Nivel3:  Leche / Otros             (milk-based / other drink)
 Level 4 — Nivel4:  Sin Bakery / Bakery / Negro   (food type or black coffee)

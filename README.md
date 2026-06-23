@@ -7,7 +7,7 @@ Análisis de mix de ventas de café en estaciones de servicio Axion Energy. Gene
 Los datos provienen de exportaciones, agrupados por estación y hora. El análisis clasifica cada venta en una jerarquía de 5 niveles orientada a decisiones de promociones:
 
 ```
-LLevar / Local
+Llevar / Local
 └── Solo / Algo
     └── Leche / Otros
         └── Sin Bakery / Bakery / Negro

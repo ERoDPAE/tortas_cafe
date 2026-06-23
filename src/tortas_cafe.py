@@ -55,20 +55,20 @@ LINE_CHART_COLS = [
 # Each entry maps a column name → (nivel1, nivel2, nivel3, nivel4, nivel5).
 # None means the branch ends at that level.
 LEAF_MAP = {
-    # LLevar > Solo
-    "q_cafes_llevar_solo_leche":                                    ("LLevar", "Solo", "Leche",       None,         None),
-    "q_cafes_llevar_solo_otros_negro1":                             ("LLevar", "Solo", "Otros",        "Negro",      None),
-    "q_cafes_llevar_solo_otros_nonegro":                            ("LLevar", "Solo", "Otros",        "No Negro",   None),
-    # LLevar > Algo > Leche
-    "q_cafes_llevar_algo_leche_bakery":                             ("LLevar", "Algo", "Leche",        "Bakery",     None),
-    "q_cafes_llevar_algo_leche_sinbakery_sandwiches":               ("LLevar", "Algo", "Leche",        "Sin Bakery", "Sandwich"),
-    "q_cafes_llevar_algo_leche_sinbakery_sinsandwiches_caramelos":  ("LLevar", "Algo", "Leche",        "Sin Bakery", "Caramelo"),
-    "q_cafes_llevar_algo_leche_sinbakery_sinsandwich_sin_caramelo": ("LLevar", "Algo", "Leche",        "Sin Bakery", "Sin Sandwich"),
-    # LLevar > Algo > Otros
-    "q_cafes_llevar_algo_otros_bakery":                             ("LLevar", "Algo", "Otros",        "Bakery",     None),
-    "q_cafes_llevar_algo_otros_sinbakery_sandwiches":               ("LLevar", "Algo", "Otros",        "Sin Bakery", "Sandwich"),
-    "q_cafes_llevar_algo_otros_sinbakery_sinsandwiches_caramelos":  ("LLevar", "Algo", "Otros",        "Sin Bakery", "Caramelo"),
-    "q_cafes_llevar_algo_otros_sinbakery_sinsandwich_sin_caramelo": ("LLevar", "Algo", "Otros",        "Sin Bakery", "Sin Sandwich"),
+    # Llevar > Solo
+    "q_cafes_llevar_solo_leche":                                    ("Llevar", "Solo", "Leche",       None,         None),
+    "q_cafes_llevar_solo_otros_negro1":                             ("Llevar", "Solo", "Otros",        "Negro",      None),
+    "q_cafes_llevar_solo_otros_nonegro":                            ("Llevar", "Solo", "Otros",        "No Negro",   None),
+    # Llevar > Algo > Leche
+    "q_cafes_llevar_algo_leche_bakery":                             ("Llevar", "Algo", "Leche",        "Bakery",     None),
+    "q_cafes_llevar_algo_leche_sinbakery_sandwiches":               ("Llevar", "Algo", "Leche",        "Sin Bakery", "Sandwich"),
+    "q_cafes_llevar_algo_leche_sinbakery_sinsandwiches_caramelos":  ("Llevar", "Algo", "Leche",        "Sin Bakery", "Caramelo"),
+    "q_cafes_llevar_algo_leche_sinbakery_sinsandwich_sin_caramelo": ("Llevar", "Algo", "Leche",        "Sin Bakery", "Sin Sandwich"),
+    # Llevar > Algo > Otros
+    "q_cafes_llevar_algo_otros_bakery":                             ("Llevar", "Algo", "Otros",        "Bakery",     None),
+    "q_cafes_llevar_algo_otros_sinbakery_sandwiches":               ("Llevar", "Algo", "Otros",        "Sin Bakery", "Sandwich"),
+    "q_cafes_llevar_algo_otros_sinbakery_sinsandwiches_caramelos":  ("Llevar", "Algo", "Otros",        "Sin Bakery", "Caramelo"),
+    "q_cafes_llevar_algo_otros_sinbakery_sinsandwich_sin_caramelo": ("Llevar", "Algo", "Otros",        "Sin Bakery", "Sin Sandwich"),
     # Local > Solo
     "q_cafes_local_solo_leche":                                     ("Local",  "Solo", "Leche",        None,         None),
     "q_cafes_local_solo_otros_negro1":                              ("Local",  "Solo", "Otros",        "Negro",      None),
@@ -91,7 +91,7 @@ DATA_COLS = list(LEAF_MAP.keys()) + LINE_CHART_COLS
 DATA_COL_INDEX = {c: i for i, c in enumerate(DATA_COLS)}
 
 NODE_COLORS = {
-    "LLevar":       "#E8735A",
+    "Llevar":       "#E8735A",
     "Local":        "#C0392B",
     "Solo":         "#7FB3F5",
     "Algo":         "#1A5276",
@@ -331,7 +331,7 @@ def _line_layout(title: str) -> dict:
 
 def make_hourly(df: pd.DataFrame, title: str) -> go.Figure:
     series = {
-        "q_cafes_llevar":      ("LLevar",        "#E8735A", "solid"),
+        "q_cafes_llevar":      ("Llevar",        "#E8735A", "solid"),
         "q_cafes_local":       ("Local",          "#C0392B", "solid"),
         "q_cafes_local_algo":  ("Local + Algo",   "#1A5276", "dot"),
         "q_cafes_local_solo":  ("Local + Solo",   "#7FB3F5", "dot"),
@@ -359,8 +359,8 @@ def make_hourly(df: pd.DataFrame, title: str) -> go.Figure:
 
 def make_unit_count(df: pd.DataFrame, title: str) -> go.Figure:
     series = {
-        "q_cafes_llevar_1":    ("LLevar 1 ud",    "#E8735A", "solid"),
-        "q_cafes_llevar_mas_1":("LLevar >1 ud",   "#A93226", "dot"),
+        "q_cafes_llevar_1":    ("Llevar 1 ud",    "#E8735A", "solid"),
+        "q_cafes_llevar_mas_1":("Llevar >1 ud",   "#A93226", "dot"),
         "q_cafes_local_1":     ("Local 1 ud",     "#7FB3F5", "solid"),
         "q_cafes_local_mas_1": ("Local >1 ud",    "#1A5276", "dot"),
     }
@@ -494,7 +494,7 @@ def _make_weekly_fig(df: pd.DataFrame, title: str, normalize: str, series: dict)
 
 def make_weekly_hourly(df: pd.DataFrame, title: str, normalize: str) -> go.Figure:
     series = {
-        "q_cafes_llevar":      ("LLevar",        "#E8735A", "solid"),
+        "q_cafes_llevar":      ("Llevar",        "#E8735A", "solid"),
         "q_cafes_local":       ("Local",          "#C0392B", "solid"),
         "q_cafes_local_algo":  ("Local + Algo",   "#1A5276", "dot"),
         "q_cafes_local_solo":  ("Local + Solo",   "#7FB3F5", "dot"),
@@ -504,8 +504,8 @@ def make_weekly_hourly(df: pd.DataFrame, title: str, normalize: str) -> go.Figur
 
 def make_weekly_unit_count(df: pd.DataFrame, title: str, normalize: str) -> go.Figure:
     series = {
-        "q_cafes_llevar_1":    ("LLevar 1 ud",    "#E8735A", "solid"),
-        "q_cafes_llevar_mas_1":("LLevar >1 ud",   "#A93226", "dot"),
+        "q_cafes_llevar_1":    ("Llevar 1 ud",    "#E8735A", "solid"),
+        "q_cafes_llevar_mas_1":("Llevar >1 ud",   "#A93226", "dot"),
         "q_cafes_local_1":     ("Local 1 ud",     "#7FB3F5", "solid"),
         "q_cafes_local_mas_1": ("Local >1 ud",    "#1A5276", "dot"),
     }
