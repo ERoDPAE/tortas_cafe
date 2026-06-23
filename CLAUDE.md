@@ -39,7 +39,7 @@ DATABRICKS_TOKEN=...
 ## Project structure
 
 ```
-data/raw/                # 17 CSV exports (export_1.csv … export_17.csv), written by extract_databricks.py
+data/raw/                # 17 CSV exports (export_1.csv … export_17.csv) + meta.json, written by extract_databricks.py
 data/processed/           # df_cluster_resultados_finales.xlsx — station-to-cluster mapping
 src/
   extract_databricks.py  # Stage 1: pulls the 17 queries from Databricks for a date range → data/raw/*.csv
@@ -56,6 +56,12 @@ legacy/                   # Original R implementation + legacy Databricks notebo
 - `dia_semana` follows Spark/Hive's `dayofweek()` convention: 1=Sunday .. 7=Saturday (see `WEEKDAY_ES`/`WEEKDAY_ORDER` in `tortas_cafe.py`, which reorders to Monday-first for display).
 - `null` values in CSVs are string literals from the DB export — cast to numeric, treat as 0.
 - The 17 files represent different levels of the product hierarchy and must be merged on `(estacion, dia_semana, hora)`.
+- The CSVs don't carry calendar dates — only `dia_semana`/`hora` (dates are aggregated away in the SQL). The actual
+  extracted date range only exists as the `--start-date`/`--end-date` CLI args, so `extract_databricks.py` writes
+  them to `data/raw/meta.json` (`start_date`, `end_date`, `extracted_at`); `tortas_cafe.py`
+  (`load_extraction_date_range()`) reads it and shows it in the report header, so the displayed range always
+  reflects the most recent extraction. If `meta.json` is missing or unreadable, the header shows a fallback message
+  instead of a stale/guessed date.
 - Minimum threshold: stations with fewer than 3500 total coffees are excluded from charts.
 - Excluded stations: `DISC CARAFFA`, `DISC ECHEVERRIA`, `DISC PANAMERICANA`, `CORS EVENTOS`,
   `OPERADOR LOGISTICO 2`, `OPERADOR LOGISTICO` (the last two: unclustered, 0% llevar, ~100%

@@ -12,7 +12,9 @@ DATABRICKS_HTTP_PATH, DATABRICKS_TOKEN.
 """
 
 import argparse
+import json
 import os
+from datetime import datetime, timezone
 from pathlib import Path
 
 import pandas as pd
@@ -537,6 +539,14 @@ def main() -> None:
         out_path = args.output_dir / f"export_{export_num}.csv"
         df.to_csv(out_path, index=False)
         print(f"  {len(df):,} filas -> {out_path}")
+
+    meta_path = args.output_dir / "meta.json"
+    meta_path.write_text(json.dumps({
+        "start_date": args.start_date,
+        "end_date": args.end_date,
+        "extracted_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+    }, indent=2))
+    print(f"  metadata -> {meta_path}")
 
     print("Extracción completa.")
 

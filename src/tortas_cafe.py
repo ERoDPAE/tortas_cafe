@@ -162,6 +162,23 @@ def load_clusters() -> pd.DataFrame:
     return xl
 
 
+def load_extraction_date_range() -> str:
+    """
+    Reads data/raw/meta.json (written by extract_databricks.py) to surface the
+    calendar date range actually extracted. The CSVs themselves only carry
+    dia_semana/hora — dates are aggregated away in the SQL — so this is the
+    only place the range survives, and it updates automatically on re-extraction.
+    """
+    meta_path = DATA_RAW / "meta.json"
+    if not meta_path.exists():
+        return "Rango de fechas no disponible (falta data/raw/meta.json)"
+    try:
+        meta = json.loads(meta_path.read_text())
+        return f"Datos: {meta['start_date']} a {meta['end_date']}"
+    except (json.JSONDecodeError, KeyError, OSError):
+        return "Rango de fechas no disponible (meta.json inválido)"
+
+
 def load_data() -> pd.DataFrame:
     df = load_raw()
     df = derive_columns(df)
@@ -644,6 +661,9 @@ HTML_TEMPLATE = """\
       font-size: 0.95rem; font-weight: 600; letter-spacing: 0.01em; color: #F8FAFC;
     }}
     header h1 span {{ color: #818CF8; }}
+    .date-range {{
+      font-size: 0.72rem; color: #94A3B8; margin-top: 2px;
+    }}
     .chart-toggle {{
       display: flex; gap: 2px; background: rgba(255,255,255,0.08);
       border: 1px solid rgba(255,255,255,0.12); border-radius: 8px; padding: 3px;
@@ -728,7 +748,10 @@ HTML_TEMPLATE = """\
 </head>
 <body>
   <header>
-    <h1>Análisis Cafés — <span>Axion Energy</span></h1>
+    <div>
+      <h1>Análisis Cafés — <span>Axion Energy</span></h1>
+      <div class="date-range">{date_range}</div>
+    </div>
     <div class="header-controls">
       <select id="day-filter" onchange="setDayFilter(this.value)">
         <option value="all">Todos los días</option>
@@ -1031,6 +1054,7 @@ def build_report(df: pd.DataFrame, output_path: Path) -> None:
         leaf_map_json=_json_for_script(leaf_map_js),
         data_cols_json=_json_for_script(DATA_COLS),
         min_coffees=MIN_COFFEES,
+        date_range=load_extraction_date_range(),
     )
     output_path.write_text(html, encoding="utf-8")
     print(f"Report written: {output_path}  ({output_path.stat().st_size / 1_048_576:.1f} MB)")
