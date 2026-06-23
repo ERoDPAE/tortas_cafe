@@ -30,7 +30,14 @@ REPORTS = ROOT / "reports"
 
 # ── Constants ─────────────────────────────────────────────────────────────────
 
-EXCLUDED_STATIONS = {"DISC CARAFFA", "DISC ECHEVERRIA", "DISC PANAMERICANA", "CORS EVENTOS"}
+EXCLUDED_STATIONS = {
+    "DISC CARAFFA", "DISC ECHEVERRIA", "DISC PANAMERICANA", "CORS EVENTOS",
+    # Not customer-facing cafés: unclustered, 0% llevar, ~100% multi-unit tickets —
+    # look like internal logistics/depot accounts, not stations. Were driving
+    # spurious peaks in the Red Total charts (Red Total includes unclustered
+    # stations that "Por Cluster" sections don't).
+    "OPERADOR LOGISTICO 2", "OPERADOR LOGISTICO",
+}
 MIN_COFFEES = 3500
 
 # Spark/Hive dayofweek() convention: 1=Sunday .. 7=Saturday.
@@ -273,7 +280,7 @@ def make_sunburst(tree: pd.DataFrame, title: str) -> go.Figure:
             "%{percentRoot:.1%} del total<extra></extra>"
         ),
         insidetextorientation="radial",
-        maxdepth=4,
+        maxdepth=-1,
     ))
     fig.update_layout(
         title=dict(text=title, font=dict(size=14)),
@@ -299,7 +306,7 @@ def make_treemap(tree: pd.DataFrame, title: str) -> go.Figure:
             "%{percentRoot:.1%} del total<extra></extra>"
         ),
         textinfo="label+percent root",
-        maxdepth=4,
+        maxdepth=-1,
     ))
     fig.update_layout(
         title=dict(text=title, font=dict(size=14)),
@@ -375,6 +382,50 @@ def make_unit_count(df: pd.DataFrame, title: str) -> go.Figure:
         ))
 
     fig.update_layout(**_line_layout(title))
+    return fig
+
+
+def make_station_contribution(df: pd.DataFrame, title: str) -> go.Figure:
+    """
+    Horizontal bar of total volume (llevar + local) per station, sorted descending.
+    Diagnostic chart for Red Total / Cluster sections: makes it obvious when one or a
+    few stations dominate the aggregate and could be driving patterns that don't
+    reflect the group as a whole.
+
+    Stations below MIN_COFFEES are greyed out and marked as such: the raw (non-normalized)
+    sunburst/treemap/line charts still sum every station shown here, but the "Normalizada"
+    (median-per-station) view excludes anything under the threshold — this chart makes that
+    cutoff explicit instead of leaving it implicit.
+    """
+    by_station = df.groupby("estacion")[["q_cafes_llevar", "q_cafes_local"]].sum()
+    totals = by_station.sum(axis=1).sort_values(ascending=True)
+    grand_total = totals.sum()
+    pct = (totals / grand_total * 100) if grand_total else totals * 0
+    included = totals >= MIN_COFFEES
+
+    colors = ["#1A5276" if inc else "#CBD5E1" for inc in included]
+    status = ["Incluida en Normalizada" if inc else f"Excluida de Normalizada (<{MIN_COFFEES:,})" for inc in included]
+
+    fig = go.Figure(go.Bar(
+        x=totals.values,
+        y=[s.title() for s in totals.index],
+        orientation="h",
+        marker=dict(color=colors),
+        customdata=np.stack([pct.values, status], axis=1),
+        hovertemplate="<b>%{y}</b><br>%{x:,.0f} cafés<br>%{customdata[0]:.1f}% del total<br>%{customdata[1]}<extra></extra>",
+    ))
+    fig.add_vline(
+        x=MIN_COFFEES, line=dict(color="#94A3B8", width=1, dash="dot"),
+        annotation_text=f"Mínimo {MIN_COFFEES:,}", annotation_position="top",
+        annotation_font=dict(size=10, color="#64748B"),
+    )
+    fig.update_layout(
+        title=dict(text=title + " — gris: bajo el mínimo, excluida de la Normalizada", font=dict(size=13)),
+        xaxis=dict(title="Cafés (llevar + local)"),
+        height=max(280, 22 * len(totals) + 90),
+        margin=dict(t=45, b=40, l=10, r=20),
+        template="plotly_white",
+    )
     return fig
 
 
@@ -506,10 +557,16 @@ def _charts_grid(divs: list[str]) -> str:
     return f'<div class="{cls}">{inner}</div>'
 
 
-def _section_charts(df: pd.DataFrame, label: str, normalized: bool, slug: str) -> str:
+def _section_charts(df: pd.DataFrame, label: str, normalized: bool, slug: str, show_stations: bool = False) -> str:
     total = df[["q_cafes_llevar", "q_cafes_local"]].values.sum()
     if total < MIN_COFFEES:
         return f'<p class="skip">Sin datos suficientes (&lt;{MIN_COFFEES:,} cafés)</p>'
+
+    station_chart = ""
+    if show_stations and df["estacion"].nunique() > 1:
+        station_chart = _charts_grid([
+            _fig_div(make_station_contribution(df, f"Aporte por estación — {label}"), div_id=f"stations-{slug}"),
+        ])
 
     tree      = sunburst_data(df)
     tree_norm = sunburst_data_normalized(df) if normalized else None
@@ -550,7 +607,7 @@ def _section_charts(df: pd.DataFrame, label: str, normalized: bool, slug: str) -
         payload["byStation"] = _section_daydata_by_station(df)
     section_script = f'<script>SECTION_DATA["{slug}"] = {_json_for_script(payload)};</script>'
 
-    return mix_charts + line_charts + weekly_charts + section_script
+    return station_chart + mix_charts + line_charts + weekly_charts + section_script
 
 
 HTML_TEMPLATE = """\
@@ -919,7 +976,7 @@ def build_report(df: pd.DataFrame, output_path: Path) -> None:
 
     # ── Red Total ─────────────────────────────────────────────────────────────
     n_stations = df["estacion"].nunique()
-    content = _section_charts(df, "Red Total", normalized=True, slug="red-total")
+    content = _section_charts(df, "Red Total", normalized=True, slug="red-total", show_stations=True)
     sections.append(
         f'<section class="section" id="red-total">'
         f'<h2>Red Total <span class="station-count">({n_stations} estaciones)</span></h2>'
@@ -932,7 +989,7 @@ def build_report(df: pd.DataFrame, output_path: Path) -> None:
         sub = df[df["Cluster_combinado"] == cluster]
         n   = sub["estacion"].nunique()
         slug = f"cluster-{_slugify(str(cluster))}"
-        content = _section_charts(sub, f"Cluster {cluster}", normalized=True, slug=slug)
+        content = _section_charts(sub, f"Cluster {cluster}", normalized=True, slug=slug, show_stations=True)
         cluster_items.append(
             f'<details>'
             f'<summary>Cluster {cluster}'

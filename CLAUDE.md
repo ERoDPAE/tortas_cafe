@@ -57,7 +57,11 @@ legacy/                   # Original R implementation + legacy Databricks notebo
 - `null` values in CSVs are string literals from the DB export — cast to numeric, treat as 0.
 - The 17 files represent different levels of the product hierarchy and must be merged on `(estacion, dia_semana, hora)`.
 - Minimum threshold: stations with fewer than 3500 total coffees are excluded from charts.
-- Excluded stations: `DISC CARAFFA`, `DISC ECHEVERRIA`, `DISC PANAMERICANA`, `CORS EVENTOS`.
+- Excluded stations: `DISC CARAFFA`, `DISC ECHEVERRIA`, `DISC PANAMERICANA`, `CORS EVENTOS`,
+  `OPERADOR LOGISTICO 2`, `OPERADOR LOGISTICO` (the last two: unclustered, 0% llevar, ~100%
+  multi-unit tickets — look like internal logistics/depot accounts rather than customer-facing
+  cafés; they were driving spurious peaks in the Red Total hourly/weekly charts since Red Total
+  includes unclustered stations that "Por Cluster" sections don't).
 
 ## Day-of-week selector and weekly chart
 
@@ -86,11 +90,19 @@ Detected from column names (e.g. `q_cafes_llevar_algo_leche_bakery`).
 
 ## Chart types
 
-- **Sunburst** — full 5-level hierarchy, interactive drill-down
+- **Sunburst** — full 5-level hierarchy, interactive drill-down (`maxdepth=-1`, all 5 levels rendered —
+  a previous `maxdepth=4` silently dropped the Sandwich/Caramelo/Sin Sandwich leaf level)
 - **Treemap** — same hierarchy, easier area comparison
 - **Hourly distribution** — line chart, % of daily volume by hour (day-selector applies)
 - **Unit count** — 1-unit vs >1-unit tickets (day-selector applies)
 - **Weekly distribution / weekly unit count** — 168-point continuous Mon→Sun line charts, day-norm/week-norm toggle (day-selector does not apply)
+- **Aporte por estación** — horizontal bar of total volume per station (Red Total + Cluster sections only,
+  via `make_station_contribution`), sorted descending. Diagnostic chart to catch a single station dominating
+  an aggregate — not affected by the day-selector, built once from all-days data. Stations under `MIN_COFFEES`
+  (3500) are greyed out and a dashed line marks the threshold, with hover text stating whether each station is
+  included in or excluded from the "Normalizada" view — makes explicit that the raw/plain sums on every other
+  chart still include every station shown here, but the median-per-station "Normalizada" sunburst/treemap drops
+  anything below the line.
 
 Report sections: Red Total → Nivel Cluster → Nivel Estación.
 Both raw-total and station-median-normalized versions for network and cluster sections.
