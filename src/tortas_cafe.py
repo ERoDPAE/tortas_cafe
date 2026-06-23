@@ -37,6 +37,8 @@ EXCLUDED_STATIONS = {
     # spurious peaks in the Red Total charts (Red Total includes unclustered
     # stations that "Por Cluster" sections don't).
     "OPERADOR LOGISTICO 2", "OPERADOR LOGISTICO",
+    # Not a café (per user confirmation) — an oil/lubricant brand, not a station.
+    "CASTROL MELI",
 }
 MIN_COFFEES = 3500
 
